@@ -1,0 +1,41 @@
+ /* Google fonts import */
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+ /* Asterisk wildcard selector to overide default styles added by the browser */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ /* Header */
+ header {
+     background-color: aquamarine;
+ }
+
+ h1 {
+    font-family: "Montserrat", sans-serif;
+ }
+ 
+ /* General style */
+ body {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     /* Basic project style */
+     color: #606060;
+     font-size: "Montserrat", sans-serif;
+     /* Main element occupy excess space to force footer down */
+     flex: 1 0 auto;
+ }
+
+ /* Main Content */
+ main {
+     background-color: goldenrod;
+ }
+
+
+ /* Footer */
+ footer {
+     background-color: yellowgreen;
+ }
