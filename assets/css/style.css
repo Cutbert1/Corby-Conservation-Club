@@ -11,12 +11,40 @@
  /* Header */
  header {
      background-color: aquamarine;
+     position: absolute;
+     z-index: 99;
+     padding: 0 16px;
+     box-shadow: 0 3px 3px #606060;
+ }
+
+
+ header a {
+    text-decoration: dashed;
+    color: #606060;
  }
 
  h1 {
     font-family: "Montserrat", sans-serif;
+    color: #606060;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: x-large; 
  }
- 
+
+ #card {
+    letter-spacing: 3px;
+    font-size: 115%;
+    list-style-type: none;
+ }
+
+ #card > li {
+    margin-bottom: 6px;
+ }
+
+ .active {
+    border-bottom: #606060 solid 1px;
+ }
+
  /* General style */
  body {
      min-height: 100vh;
