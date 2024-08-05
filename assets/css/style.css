@@ -11,13 +11,14 @@
  /* Header */
  header {
      background-color: aquamarine;
-     position: fixed;
+     position: relative;
      z-index: 99;
      padding: 0 16px;
      box-shadow: 0 3px 3px #606060;
      justify-content: space-around;
      display: flex;
      align-items: baseline;
+     width: 100%;
  }
 
 
@@ -34,13 +35,13 @@
     font-size: x-large; 
  }
 
- #card {
+ #menu-card {
     letter-spacing: 3px;
     font-size: 115%;
     list-style-type: none;
  }
 
- #card > li {
+ #menu-card > li {
     margin-bottom: 6px;
  }
 
@@ -91,11 +92,77 @@
      background-color: goldenrod;
       /* Main element occupy excess space to force footer down */
       flex: 1 0 auto;
-      margin-top: 50px;
+      
+      
  }
 
 
  /* Footer */
  footer {
-     background-color: yellowgreen;
+     background-color: aquamarine;
+ }
+
+
+ #networks {
+    text-align: center;
+    font-size: medium;
+    color: #606060;
+    text-decoration: wavy;
+ }
+
+ #network-with-us {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0 20px;
+    text-align: center;
+ }
+
+ #network-with-us i {
+    font-size: large;
+    padding: 5%;
+    color: #606060;
+ }
+
+ 
+ 
+ /* Media query: tablets and larger (768px and up) */
+ @media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 16px;
+        display: block;
+    }
+
+    #menu-card {
+        display: flex;
+    }
+
+    #menu-card > li {
+        padding-left: 16px;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: xx-large;
+        line-height: 80%;
+        margin: 0 8px;
+    }
+
+
+ }
+
+ /* Media query: larger devices (laptop and desktops, 981px and up) */
+ @media screen and (min-width: 981px) {
+    #menu-card a:hover {
+        border-bottom: #606060 solid 1px;
+    }
+
+    
  }
