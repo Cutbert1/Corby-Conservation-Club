@@ -11,10 +11,13 @@
  /* Header */
  header {
      background-color: aquamarine;
-     position: absolute;
+     position: fixed;
      z-index: 99;
      padding: 0 16px;
      box-shadow: 0 3px 3px #606060;
+     justify-content: space-around;
+     display: flex;
+     align-items: baseline;
  }
 
 
@@ -45,6 +48,32 @@
     border-bottom: #606060 solid 1px;
  }
 
+/* Navbar */
+ nav {
+    position: absolute;
+    background-color: aquamarine;
+    padding: 16px;
+    width: 100%;
+    right: 0;
+    display: none;
+    box-shadow: 0 3px 3px #606060;
+    top: 100%;
+ }
+
+ /* Nav Toggle */
+ #nav-toggle:checked~nav {
+    display: block;
+ }
+
+ #nav-toggle {
+    display: none;
+ }
+
+ .nav-toggle-label {
+    font-size: 32px;
+ }
+
+
  /* General style */
  body {
      min-height: 100vh;
@@ -53,13 +82,16 @@
      /* Basic project style */
      color: #606060;
      font-size: "Montserrat", sans-serif;
-     /* Main element occupy excess space to force footer down */
-     flex: 1 0 auto;
+    
+    
  }
 
  /* Main Content */
  main {
      background-color: goldenrod;
+      /* Main element occupy excess space to force footer down */
+      flex: 1 0 auto;
+      margin-top: 50px;
  }
 
 
