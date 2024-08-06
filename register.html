@@ -39,7 +39,36 @@
         </nav>
     </header>
     <!-- Main Content -->
-    <main>Main Content</main>
+    <main>
+        <section id="register">
+            <form id="registration-form" method="POST" action=" https://formdump.codeinstitute.net"></form>
+            <h2><i class="fa-solid fa-handshake"></i>Register with us!</h2>
+            <br>
+            <label for="first-name"> First Name</label>
+            <input type="text" name="first_name" id="first-name" class="text-input" required>
+            <br>
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last-name" class="text-input" required>
+            <br>
+            <label for="email_address">Email Address</label>
+            <input type="email" name="email_address" id="email-address" class="text-input" required>
+            <div class="radio-buttons">
+                <div>
+                    <label for="wildlife">Wildlife</label>
+                    <input type="radio" name="conservation_preference" id="wildlife" value="wildlife" required>
+                </div>
+                <div>
+                    <label for="go-green">Go Green</label>
+                    <input type="radio" name="conservation_preference" id="go-green" value="go-green" required checked>
+                </div>
+                <div>
+                    <label for="both">Both</label>
+                    <input type="radio" name="conservation_preference" id="both" value="both" required>
+                </div>
+            </div>
+            <button type="submit" class="join-button">Get Involved!</button>
+        </section>
+    </main>
     <!-- Footer -->
     <footer>
         <h2 id="networks">Get Involved</h2>
@@ -54,7 +83,7 @@
             <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
                     aria-label="Visit us on youtube (open in a new tab)"><i class="fa-brands fa-youtube"></i></a></li>
             <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener"
-                        aria-label="Visit us on linkedin (open in a new tab)"><i class="fa-brands fa-linkedin"></i></a></li>
+                    aria-label="Visit us on linkedin (open in a new tab)"><i class="fa-brands fa-linkedin"></i></a></li>
         </ul>
     </footer>
     <!-- Font awesome kit -->
