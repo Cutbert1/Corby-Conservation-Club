@@ -10,7 +10,7 @@
 
  /* Header */
  header {
-     background-color: aquamarine;
+   background-color: azure;
      position: relative;
      z-index: 99;
      padding: 0 16px;
@@ -52,7 +52,7 @@
 /* Navbar */
  nav {
     position: absolute;
-    background-color: aquamarine;
+    background-color: azure;
     padding: 16px;
     width: 100%;
     right: 0;
@@ -64,6 +64,7 @@
  /* Nav Toggle */
  #nav-toggle:checked~nav {
     display: block;
+    
  }
 
  #nav-toggle {
@@ -114,9 +115,44 @@
     padding-left: 10px;
  }
 
+ /* Services section */
+#services img {
+   width: 90%;
+   margin: 20px auto;
+   display: flex;
+}
+
+#services {
+  background-color: rgba(111, 129, 88, 0.4);
+}
+
+#services h2 {
+   padding-left: 10px;
+}
+
+#plastic h3 {
+   padding-left: 10px;
+}
+
+#plants h3 {
+   padding-left: 10px;
+}
+
+#wildlife h3 {
+   padding-left: 10px;
+}
+
+#aquatic {
+   padding-left: 10px;
+}
+
+#services p {
+   margin: 0 10px;
+}
+
  /* Footer */
  footer {
-     background-color: aquamarine;
+   background-color: azure;
  }
 
 
@@ -176,6 +212,13 @@
         right: 50px;
         font-size: 130%;
     }
+    /* Services section */
+    #services img {
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      height: 80%;
+    }
 
 
  }
@@ -185,6 +228,24 @@
     #menu-card a:hover {
         border-bottom: #606060 solid 1px;
     }
+    #services {
+      display: flex;
+      flex-direction: row;
+    }
+    #services #plastic {
+      align-self: center;
+    }
+    #services #plants {
+      align-self: flex-start;
+    }
+    #services #wildlife {
+      align-self: flex-end;
+    }
+    #services #aquatic {
+      align-self: center;
+    }
+
+
 
     
  }
