@@ -142,12 +142,33 @@
    padding-left: 10px;
 }
 
-#aquatic {
+#aquatic h3 {
    padding-left: 10px;
 }
 
 #services p {
    margin: 0 10px;
+}
+
+/* Events Section */
+#activities {
+   background: url(../images/flower-image.jpg) no-repeat center/cover;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+#activities div {
+   color: azure;
+   background-color: rgba(0, 0, 0, 0.4);
+   padding: 15px;
+   text-align: center;
+   flex-basis: 200px;
+   flex-grow: 1;
+   border: 2px solid azure;
+}
+
+.hidden-heading {
+   display: none;
 }
 
  /* Footer */
@@ -227,6 +248,7 @@
  @media screen and (min-width: 981px) {
     #menu-card a:hover {
         border-bottom: #606060 solid 1px;
+       /* Services section */
     }
     #services {
       display: flex;
@@ -243,6 +265,10 @@
     }
     #services #aquatic {
       align-self: center;
+    }
+    #services h3  {
+      text-align: center;
+
     }
 
 
