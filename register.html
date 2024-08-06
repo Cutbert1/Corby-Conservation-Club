@@ -40,11 +40,11 @@
     </header>
     <!-- Main Content -->
     <main>
-        <section id="register">
-            <form id="registration-form" method="POST" action=" https://formdump.codeinstitute.net"></form>
-            <h2><i class="fa-solid fa-handshake"></i>Register with us!</h2>
+      <section id="register">
+        <form id="registration-form" action="https://formdump.codeinstitute.net" method="POST">
+            <h2>Register with us!<i class="fa-solid fa-handshake"></i></h2>
             <br>
-            <label for="first-name"> First Name</label>
+            <label for="first_name">First Name</label>
             <input type="text" name="first_name" id="first-name" class="text-input" required>
             <br>
             <label for="last_name">Last Name</label>
@@ -55,11 +55,11 @@
             <div class="radio-buttons">
                 <div>
                     <label for="wildlife">Wildlife</label>
-                    <input type="radio" name="conservation_preference" id="wildlife" value="wildlife" required>
+                    <input type="radio" name="conservation_preference" id="wildlife" value="wildlife" required checked>
                 </div>
                 <div>
                     <label for="go-green">Go Green</label>
-                    <input type="radio" name="conservation_preference" id="go-green" value="go-green" required checked>
+                    <input type="radio" name="conservation_preference" id="go-green" value="go-green" required>
                 </div>
                 <div>
                     <label for="both">Both</label>
@@ -67,11 +67,12 @@
                 </div>
             </div>
             <button type="submit" class="join-button">Get Involved!</button>
-        </section>
+        </form>
+      </section>
     </main>
     <!-- Footer -->
     <footer>
-        <h2 id="networks">Get Involved</h2>
+        <h2 id="networks">Follow us</h2>
         <ul id="network-with-us">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
                     aria-label="Visit us on facebook (open in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
