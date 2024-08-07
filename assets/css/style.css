@@ -234,6 +234,50 @@ label {
    display: none;
 }
 
+
+/*About Us Section */
+#aboutus img {
+   background: url(../images/aboutus-image.jpg) no-repeat center/cover;
+   width: 100%;
+}
+
+#aboutus {
+   color: white;
+   text-align: center;
+   position: relative;
+}
+
+.title {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-shadow: 0 0 7px black;
+   font-size: x-large;
+}
+
+.purpose {
+   padding-left: 10px;
+   padding-right: 10px;
+   flex-direction: column;
+   margin: 20px;
+  
+}
+
+.who-we-are {
+   padding-left: 10px;
+   padding-right: 10px;
+   flex-direction: column;
+   margin: 20px;
+}
+
+.what-we-do {
+   padding-left: 10px;
+   padding-right: 10px;
+   flex-direction: column;
+   margin: 20px;
+}
+   
  /* Footer */
  footer {
    background-color: azure;
@@ -328,6 +372,17 @@ label {
       border-color: orange;
     }
 
+    .purpose {
+      margin: 20px 40px 20px 40px;
+    }
+
+    .who-we-are {
+      margin: 20px 40px 20px 40px;
+    }
+
+    .what-we-do {
+      margin: 20px 40px 20px 40px;
+    }
 
  }
 
@@ -355,6 +410,19 @@ label {
     }
     #services h3  {
       text-align: center;
+    }
+
+    .purpose {
+      margin: 30px 150px 30px 150px;
+
+    }
+
+    .who-we-are {
+      margin: 30px 150px 30px 150px;
+    }
+
+    .what-we-do {
+      margin: 30px 150px 30px 150px;
     }
 
 
