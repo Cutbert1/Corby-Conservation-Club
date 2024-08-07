@@ -21,7 +21,6 @@
      width: 100%;
  }
 
-
  header a {
     text-decoration: dashed;
     color: #606060;
@@ -93,7 +92,7 @@
            
  }
 
- /* Register Section */
+ /* Register page */
  main {
    flex: 1 0 auto;
    display: flex;
@@ -235,7 +234,7 @@ label {
 }
 
 
-/*About Us Section */
+/*About Us page */
 #aboutus img {
    background: url(../images/aboutus-image.jpg) no-repeat center/cover;
    width: 100%;
@@ -277,7 +276,26 @@ label {
    flex-direction: column;
    margin: 20px;
 }
-   
+
+/* Gallery Page */
+#pictures {
+   line-height: 0;
+}
+
+#pictures img {
+   width: 100%;
+   line-height: 16px;
+}
+
+/* Media query: landscape phones (570px and up) */
+@media screen and (min-width: 570px) {
+   #pictures {
+      column-count: 2;
+      column-gap: 0;
+   }
+
+}
+
  /* Footer */
  footer {
    background-color: azure;
@@ -350,7 +368,7 @@ label {
       height: 80%;
     }
 
-    /* Register Section */
+    /* Register page */
     #register {
       background-position: center;
       position: relative;
@@ -384,6 +402,11 @@ label {
       margin: 20px 40px 20px 40px;
     }
 
+    /* Gallery page */
+    #pictures {
+      column-count: 3;
+    }
+
  }
 
  /* Media query: larger devices (laptop and desktops, 981px and up) */
@@ -411,7 +434,8 @@ label {
     #services h3  {
       text-align: center;
     }
-
+     
+    /* About us page */
     .purpose {
       margin: 30px 150px 30px 150px;
 
@@ -425,5 +449,9 @@ label {
       margin: 30px 150px 30px 150px;
     }
 
+    /* Gallery page */
+    #pictures {
+      column-count: 4;
+    }
 
  }
