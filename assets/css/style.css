@@ -253,6 +253,7 @@ label {
    transform: translate(-50%, -50%);
    text-shadow: 0 0 7px black;
    font-size: x-large;
+   font-weight: bolder;
 }
 
 .purpose {
@@ -287,6 +288,45 @@ label {
    line-height: 16px;
 }
 
+/* Donate Page */
+
+#donate {
+   background-image: url(../images/donate.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: fixed;
+   padding: 20px 10% 0 10%;
+   flex-grow: 1;
+   min-height: 80%;
+   width: 100%;
+ }
+
+ #donation-form {
+   position: relative;
+   right: 0;
+   margin: 20px;
+   max-width: 300px;
+   padding: 16px;
+   align-items: center;
+   
+ }
+
+ #donation-form h1 {
+   color: azure;
+ }
+
+ .donate-button {
+   margin-top: 20px;
+   border-radius: 2px;
+   padding: 15px 35px;
+   font-size: 100%;
+   background-color: rgba(111, 129, 88);
+   color: azure;
+   position: absolute;
+ }
+
+
 /* Media query: landscape phones (570px and up) */
 @media screen and (min-width: 570px) {
    #pictures {
@@ -299,8 +339,8 @@ label {
  /* Footer */
  footer {
    background-color: azure;
+ 
  }
-
 
  #networks {
     text-align: center;
