@@ -49,26 +49,31 @@
                     <br>
                     <div>
                         <label for="name-on-card">Name on Card</label>
-                        <input type="text" name="name_on_card" id="name-on-card" class="text-input" value="full name on card" required>
+                        <input type="text" name="name_on_card" id="name-on-card" class="text-input" required>
                     </div>
                     <div>
                         <label for="card-number">Card Number</label>
-                        <input maxlenght="number" name="card_number" id="card-number" class="number-input" value="card-number" maxlength="16" required>
+                        <input type="text" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number"
+                            name="card_number" id="card-number" class="number-input" placeholder="xxxx xxxx xxxx xxxx"
+                            maxlength="16" required>
                     </div>
                     <br>
                     <div>
                         <label for="expiry-date">Expiry Date</label>
-                        <input type="date" name="expiry_date" id="expiry-date" class="date-input" value="2024-08-09" required>
+                        <input type="date" name="expiry_date" id="expiry-date" class="date-input" value="2024-08-09"
+                            required>
                     </div>
                     <br>
                     <div>
                         <label for="cvc">CVC</label>
-                        <input maxlenght="number" name="cvc_number" id="cvc" class="number-input" value="3 digits" maxlength="3" required>
+                        <input type="text" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number"
+                            name="cvc_number" id="cvc" class="number-input" maxlength="3" placeholder="xxx" required>
                     </div>
                     <br>
                     <div>
                         <label for="amount">Amount</label>
-                        <input type="number" name="amount_number" id="amount" class="number-input" value="0.00" required>
+                        <input type="number" name="amount_number" id="amount" class="number-input" value="0.00"
+                            required>
                     </div>
                     <div>
                         <button type="submit" class="donate-button">Donate</button>
@@ -93,7 +98,7 @@
             <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
                     aria-label="Visit us on youtube (open in a new tab)"><i class="fa-brands fa-youtube"></i></a></li>
             <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener"
-                        aria-label="Visit us on linkedin (open in a new tab)"><i class="fa-brands fa-linkedin"></i></a></li>
+                    aria-label="Visit us on linkedin (open in a new tab)"><i class="fa-brands fa-linkedin"></i></a></li>
         </ul>
     </footer>
     <!-- Font awesome kit -->

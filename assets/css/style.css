@@ -451,6 +451,17 @@ label {
       column-count: 3;
     }
 
+    /* Donate page */
+    .donate-button:hover {
+      background-color: azure;
+      color: #606060;
+    }
+    .text-input .number-input .date-input:hover {
+      border-color: orange;
+    }
+
+   
+      
  }
 
  /* Media query: larger devices (laptop and desktops, 981px and up) */
