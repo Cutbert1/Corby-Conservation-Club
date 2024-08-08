@@ -233,7 +233,6 @@ label {
    display: none;
 }
 
-
 /*About Us page */
 #aboutus img {
    background: url(../images/aboutus-image.jpg) no-repeat center/cover;
@@ -260,8 +259,7 @@ label {
    padding-left: 10px;
    padding-right: 10px;
    flex-direction: column;
-   margin: 20px;
-  
+   margin: 20px;  
 }
 
 .who-we-are {
@@ -307,8 +305,7 @@ label {
    margin: 20px;
    max-width: 300px;
    padding: 16px;
-   align-items: center;
-   
+   align-items: center; 
  }
 
  #donation-form h1 {
@@ -324,7 +321,11 @@ label {
    color: azure;
    position: absolute;
  }
-
+ 
+ #donation-form input {
+   font-weight: lighter;
+  
+ }
 
 /* Media query: landscape phones (570px and up) */
 @media screen and (min-width: 570px) {
