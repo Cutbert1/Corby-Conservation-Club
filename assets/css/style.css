@@ -327,6 +327,10 @@ label {
   
  }
 
+ #donate .phrase {
+   color: azure;
+ }
+
 /* Media query: landscape phones (570px and up) */
 @media screen and (min-width: 570px) {
    #pictures {
