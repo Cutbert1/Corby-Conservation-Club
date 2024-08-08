@@ -42,7 +42,7 @@
     <main>
         <section id="support-us">
             <div id="donate">
-                <form id="donation-form" action="https://formdump.codeinstitute.net" method="POST">
+                <form id="donation-form" action="thank-you.html" method="GET">
                     <h1>Support Us<i class="fa-solid fa-circle-dollar-to-slot"></i></h1>
                     <br>
                     <h3 class="phrase">"It's not too late to Go Green and save wildlife, but we must act together".</h3>
@@ -53,7 +53,7 @@
                     </div>
                     <div>
                         <label for="card-number">Card Number</label>
-                        <input type="text" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number"
+                        <input type="text" inputmode="numeric" pattern="[0-9\s]{13,16}" autocomplete="cc-number"
                             name="card_number" id="card-number" class="number-input" placeholder="xxxx xxxx xxxx xxxx"
                             maxlength="16" required>
                     </div>
@@ -66,7 +66,7 @@
                     <br>
                     <div>
                         <label for="cvc">CVC</label>
-                        <input type="text" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number"
+                        <input type="text" inputmode="numeric" pattern="[0-9]{3}" autocomplete="cvc-number"
                             name="cvc_number" id="cvc" class="number-input" maxlength="3" placeholder="xxx" required>
                     </div>
                     <br>

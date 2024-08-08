@@ -331,11 +331,36 @@ label {
    color: azure;
  }
 
+ /* Thank you page */
+ .thank-you {
+   background-image: url(../images/thank-you.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   
+ }
+
+ .thank-you h1 {
+   color: azure;
+   font-size: 3rem;
+   text-align: center;
+   position: relative;
+   margin: 0;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%)
+ }
+
+
 /* Media query: landscape phones (570px and up) */
 @media screen and (min-width: 570px) {
    #pictures {
       column-count: 2;
       column-gap: 0;
+   }
+   .thank-you {
+      position: ;
    }
 
 }
