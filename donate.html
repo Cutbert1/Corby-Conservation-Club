@@ -46,11 +46,11 @@
                     <h1>Support Us<i class="fa-solid fa-circle-dollar-to-slot"></i></h1>
                     <div>
                         <label for="name_on_card">Name on Card</label>
-                        <input type="text" name="name_on_card" id="name-on-card" class="text-input" value="full name" required>
+                        <input type="text" name="name_on_card" id="name-on-card" class="text-input" value="full name on card" required>
                     </div>
                     <div>
                         <label for="card_number">Card Number</label>
-                        <input type="number" name="card_number" id="card-number" class="number-input" value="cc-number" required>
+                        <input maxlenght="number" name="card_number" id="card-number" class="number-input" value="card-number" maxlength="16" required>
                     </div>
                     <br>
                     <div>
@@ -60,12 +60,12 @@
                     <br>
                     <div>
                         <label for="cvc">CVC</label>
-                        <input type="number" name="cvc_number" id="cvc-number" class="number-input" value="cc-csc" min="3" max="3" required>
+                        <input maxlenght="number" name="cvc_number" id="cvc-number" class="number-input" value="3 digits at the back of card" maxlength="3" required>
                     </div>
                     <br>
                     <div>
                         <label for="amount">Amount</label>
-                        <input type="number" name="amount_number" id="amount-number" class="number-input" value="cc-currency" required>
+                        <input type="number" name="amount_number" id="amount-number" class="number-input" value="transaction-currency" required>
                     </div>
                     <div>
                         <button type="submit" class="donate-button">Donate</button>
