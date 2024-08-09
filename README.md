@@ -1,13 +1,9 @@
 # Corby Conservative Union
-
 ## Introduction
 #### Project Description
 #### Project Purpose
 #### User Demographic
-
 ## Features
-
-
 ### Existing Features
 #### Navbar
 #### Footer
@@ -17,9 +13,7 @@
 #### Donate Form
 #### Social Media Icons
 #### Favicons
-
 ### Features Left to Implement
-
 ## Manual Testing
 ### Quality Assurance
 ### User Experience Assurance
@@ -30,10 +24,7 @@
 #### Screen sizes Responsiveness
 #### Bugs Resolved
 #### Bugs Unresolved
-
 ## Deployment
-
-
 ## Credits
 ### Codes
 ### Tutorials
