@@ -251,7 +251,7 @@ label {
    left: 50%;
    transform: translate(-50%, -50%);
    text-shadow: 0 0 7px black;
-   font-size: x-large;
+   font-size: 2rem;
    font-weight: bolder;
 }
 
@@ -308,8 +308,9 @@ label {
    align-items: center; 
  }
 
- #donation-form h1 {
+ #donation-form h2 {
    color: azure;
+   font-size: 1.5rem;
  }
 
  .donate-button {
@@ -359,16 +360,12 @@ label {
       column-count: 2;
       column-gap: 0;
    }
-   .thank-you {
-      position: ;
-   }
 
 }
 
  /* Footer */
  footer {
    background-color: azure;
- 
  }
 
  #networks {
@@ -483,9 +480,7 @@ label {
     }
     .text-input .number-input .date-input:hover {
       border-color: orange;
-    }
-
-   
+    } 
       
  }
 

@@ -20,6 +20,19 @@ To run a backend Python file, type `python3 app.py` if your Python file is named
 
 A blue button should appear to click: _Make Public_,
 
+
+
+
+
+
+![alt text](./assets/images/readme-images/readme-register.jpg)
+
+
+
+
+
+
+
 Another blue button should appear to click: _Open Browser_.
 
 By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
