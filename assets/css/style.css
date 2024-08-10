@@ -19,6 +19,7 @@
      display: flex;
      align-items: baseline;
      width: 100%;
+     
  }
 
  header a {
@@ -122,6 +123,10 @@
    font-size: x-large;
 }
 
+#register .fa-solid {
+   padding: 7px;
+}
+
 label {
    color: azure;
    font-size: small;
@@ -147,7 +152,7 @@ label {
 .join-button {
    margin-top: 20px;
    border-radius: 2px;
-   padding: 15px 35px;
+   padding: 15px 20px;
    font-size: 100%;
    background-color: rgba(111, 129, 88);
    color: azure;
@@ -173,8 +178,7 @@ label {
     bottom: 30px;
     width: 85%;
     min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
+    padding: 20px 0px 20px 10px;
  }
 
  /* Services section */
@@ -186,6 +190,7 @@ label {
 
 #services {
   background-color: rgba(111, 129, 88, 0.4);
+  padding: 15px;
 }
 
 #services h2 {
@@ -284,6 +289,7 @@ label {
 #pictures img {
    width: 100%;
    line-height: 16px;
+   padding: 1px;
 }
 
 /* Donate Page */
@@ -302,7 +308,7 @@ label {
  #donation-form {
    position: relative;
    right: 0;
-   margin: 20px;
+   margin: 5px;
    max-width: 300px;
    padding: 16px;
    align-items: center; 
@@ -313,10 +319,14 @@ label {
    font-size: 1.5rem;
  }
 
+ #donation-form .fa-solid {
+   padding: 7px;
+ }
+
  .donate-button {
    margin-top: 20px;
    border-radius: 2px;
-   padding: 15px 35px;
+   padding: 15px 20px;
    font-size: 100%;
    background-color: rgba(111, 129, 88);
    color: azure;
@@ -332,6 +342,9 @@ label {
    color: azure;
  }
 
+ .phrase {
+   padding-bottom: 2px;
+ }
  /* Thank you page */
  .thank-you {
    background-image: url(../images/thank-you.jpg);
@@ -360,12 +373,12 @@ label {
       column-count: 2;
       column-gap: 0;
    }
-
 }
 
  /* Footer */
  footer {
    background-color: azure;
+   padding: 12px;
  }
 
  #networks {
@@ -399,6 +412,10 @@ label {
         width: fit-content;
         padding-right: 16px;
         display: block;
+    }
+
+    header {
+      align-items: center;
     }
 
     #menu-card {
@@ -452,10 +469,6 @@ label {
       color: #606060;
     }
 
-    .text-input:hover {
-      border-color: orange;
-    }
-
     .purpose {
       margin: 20px 40px 20px 40px;
     }
@@ -478,14 +491,15 @@ label {
       background-color: azure;
       color: #606060;
     }
-    .text-input .number-input .date-input:hover {
-      border-color: orange;
-    } 
       
  }
 
  /* Media query: larger devices (laptop and desktops, 981px and up) */
  @media screen and (min-width: 981px) {
+    header {
+      align-items: center;
+    }
+
     #menu-card a:hover {
         border-bottom: #606060 solid 1px;
        /* Services section */

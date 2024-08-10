@@ -20,43 +20,41 @@ The  core features/functionality of  this project is categorised as below. Featu
 #### Navbar
 A responsive navigation header where all the links to other html pages are embedded. Burger icon is used to indicate  navbar in mobile screens and landscape. For media screen 786px and up (tablets) navigation to other pages are indicated at the header. 
 ```html
- <header>
-        <a href="index.html">
-            <h1 id="logo">Corby Conservation Club</h1>
-        </a>
-        <input type="checkbox" name="nav-toggle" id="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars-staggered"></i></label>
-        <nav>
-            <ul id="menu-card">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="register.html">Register</a></li>
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="donate.html">Donate</a></li>
-            </ul>
-        </nav>
-    </header
+<header>
+    <a href="index.html">
+        <h1 id="logo">Corby Conservation Club</h1>
+    </a>
+    <input type="checkbox" name="nav-toggle" id="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars-staggered"><i></label>
+    <nav>
+        <ul id="menu-card">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="donate.html">Donate</a></li>
+        </ul>
+    </nav>
+</header>
 ```
 ![Image showing the output of the program](./assets/images/readme-images/navbar.jpg). ![Image showing the output of the program 768px and above](./assets/images/readme-images/navbar%20tablets.jpg)
 #### Footer and Social Media Icons
 A responsive footer is included for user interaction and where they can follow Corby Conservation Union social network. A home page for Facebook, Instagram, Twitter(X) and YouTube is embedded through the social media icons.
 ```html
- <footer>
-        <h2 id="networks">Follow us</h2>
-        <ul id="network-with-us">
-            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit us on facebook (open in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="https://x.com/" target="_blank" rel="noopener"
+<footer>
+    <h2 id="networks">Follow us</h2>
+    <ul id="network-with-us">
+        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit us on facebook (open in a new tab"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="https://x.com/" target="_blank" rel="noopener"
                     aria-label="Visit us on X (open in a new tab)"><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit us on instagram (open in a new tab)"><i
-                        class="fa-brands fa-square-instagram"></i></a></li>
-            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit us on instagram (open in a new tab)"><i class="fa-brands fa-square-instagram"></i></a></li>
+        <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
                     aria-label="Visit us on youtube (open in a new tab)"><i class="fa-brands fa-youtube"></i></a></li>
-            <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener"
+        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener"
                     aria-label="Visit us on linkedin (open in a new tab)"><i class="fa-brands fa-linkedin"></i></a></li>
-        </ul>
-    </footer>
+    </ul>
+</footer>
 ```
 ![Image showing the output of the program](./assets/images/readme-images/footer-mobile-screen.jpg)
 #### Buttons and Links
@@ -130,44 +128,44 @@ Responsive registration form created to accept First name, Last Name, Email addr
 Responsive donate form designed to accept Name on Card, 16 digits card number , card expiry date, 3 digits CVC card number and amount. This section is design for alpha numeric input, however  specific conditions must be met before the form can submit. Name on Card must be alpha, card number must be numeric and can’t input more than 16 digits. Expiry date must be a future date, CVC must be numeric and can’t exceed 3 digits and amount must be numeric.
 ```html
 <div id="donate">
-                <form id="donation-form" action="thank-you.html" method="GET">
-                    <h2>Support Us<i class="fa-solid fa-circle-dollar-to-slot"></i></h2>
-                    <br>
-                    <h3 class="phrase">"It's not too late to Go Green and save wildlife, but we must act together".</h3>
-                    <br>
-                    <div>
-                        <label for="name-on-card">Name on Card</label>
-                        <input type="text" name="name_on_card" id="name-on-card" class="text-input" required>
-                    </div>
-                    <div>
-                        <label for="card-number">Card Number</label>
-                        <input type="text" inputmode="numeric" pattern="[0-9\s]{13,16}" autocomplete="cc-number"
-                            name="card_number" id="card-number" class="number-input" placeholder="xxxx xxxx xxxx xxxx"
-                            maxlength="16" required>
-                    </div>
-                    <br>
-                    <div>
-                        <label for="expiry-date">Expiry Date</label>
-                        <input type="date" name="expiry_date" id="expiry-date" class="date-input" value="2024-08-09"
-                            required>
-                    </div>
-                    <br>
-                    <div>
-                        <label for="cvc">CVC</label>
-                        <input type="text" inputmode="numeric" pattern="[0-9]{3}" autocomplete="cc-number"
-                            name="cvc_number" id="cvc" class="number-input" maxlength="3" placeholder="xxx" required>
-                    </div>
-                    <br>
-                    <div>
-                        <label for="amount">Amount</label>
-                        <input type="number" name="amount_number" id="amount" class="number-input" value="0.00"
-                            required>
-                    </div>
-                    <div>
-                        <button type="submit" class="donate-button">Donate</button>
-                    </div>
-                </form>
+    <form id="donation-form" action="thank-you.html" method="GET">
+        <h2>Support Us<i class="fa-solid fa-circle-dollar-to-slot"></i></h2>
+        <br>
+        <h3 class="phrase">"It's not too late to Go Green and save wildlife, but we must act together".</h3>
+        <br>
+        <div>
+            <label for="name-on-card">Name on Card</label>
+            <input type="text" name="name_on_card" id="name-on-card" class="text-input" required>
+        </div>
+        <div>
+            <label for="card-number">Card Number</label>
+            <input type="text" inputmode="numeric" pattern="[0-9\s]{13,16}" autocomplete="cc-number"
+                    name="card_number" id="card-number" class="number-input" placeholder="xxxx xxxx xxxx xxxx"
+                    maxlength="16" required>
+        </div>
+        <br>
+        <div>
+            <label for="expiry-date">Expiry Date</label>
+            <input type="date" name="expiry_date" id="expiry-date" class="date-input" value="2024-08-09"
+                   required>
+        </div>
+        <br>
+        <div>
+            <label for="cvc">CVC</label>
+            <input type="text" inputmode="numeric" pattern="[0-9]{3}" autocomplete="cc-number"
+                   name="cvc_number" id="cvc" class="number-input" maxlength="3" placeholder="xxx" required>
+        </div>
+        <br>
+        <div>
+            <label for="amount">Amount</label>
+            <input type="number" name="amount_number" id="amount" class="number-input" value="0.00"
+                    required>
+        </div>
+        <div>
+            <button type="submit" class="donate-button">Donate</button>
             </div>
+     </form>
+</div>
 ```
 ![Image showing the output of the program](./assets/images/readme-images/donate-page.jpg)
 #### Improvement Features
