@@ -38,7 +38,7 @@ A responsive navigation header where all the links to other html pages are embed
 </header>
 ```
 ![Image showing the output of the program](./assets/images/readme-images/navbar.jpg). ![Image showing the output of the program 768px and above](./assets/images/readme-images/navbar%20tablets.jpg)
-#### Footer and Social Media Icons
+#### Footer and Social Network Icons
 A responsive footer is included for user interaction and where they can follow Corby Conservation Union social network. A home page for Facebook, Instagram, Twitter(X) and YouTube is embedded through the social media icons.
 ```html
 <footer>
@@ -176,11 +176,25 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 ### Quality Assurance
 ### User Experience Assurance
 ### Features Testing
-#### Lighthouse Perfomance
-#### Validation Testing
-#### Browser compatibility
-#### Screen sizes Responsiveness
-#### Accessibility
+|Key Features|   User Value   |Functionality Test|Outcome|
+|:------------|:----------------|:-------------|:------------|
+|Logo|Assist user navigate through the website as it renders the **Home page** when logo is clicked.![click logo](./assets/images/readme-images/manual-test-images/click-logo.jpg)|While on any other page (Register, Donate, About Us) click on **logo**.|While on donate page, logo was clicked and home page was rendered. Facilitates users experience  should they want to know more of our services before donating to Corby Conservation Union. ![logo before and after](./assets/images/readme-images/manual-test-images/logo%20before-after.jpg)|
+|Navbar-Home Page|User meaningful value, render **Home pag** when navbar is clicked. ![navbar home page](./assets/images/readme-images/manual-test-images/navbar-homepage.jpg)|From any page on mobile screen click the nav toggle, select **Home** to render. On a tablet or higher directly select Home.|While on register page or any other page, click nav toggle burger sign, click home to render page. ![navbar home page before and after](./assets/images/readme-images/manual-test-images/navbar-hompage%20before-after.jpg)|
+|Navbar-Gallery  |User experience value, render **Gallery page** when navbar is clicked. ![navbar gallery](./assets/images/readme-images/manual-test-images/navbar-gallery.jpg)|From any page on mobile screen click the nav toggle, select **Gallery** to render. On a tablet or higher directly select Gallery|While on home  page or any other page, click nav toggle burger sign, click gallery  to render page. Enable user to quickly view gallery and review images based on our activities and events. ![navbar gallery before and after](./assets/images/readme-images/manual-test-images/navbar-gallery%20before-after.jpg)|
+|Navbar-Register |Renders **Register page** when navbar is clicked. ![navbar register](./assets/images/readme-images/manual-test-images/navbar-register.jpg) |From any page on mobile screen click the nav toggle, select **Register** to render. On a tablet or higher directly select Register.|While on gallery  page or any other page, click nav toggle burger sign, click Register  to render page. Users to seamlessly visit our Register page to join us. ![navbar register before and after](./assets/images/readme-images/manual-test-images/navbar-register-before-after.jpg)|
+|Navbar-About Us|User experience value, Renders **About Us page** when navbar is clicked. ![navbar about us](./assets/images/readme-images/manual-test-images/navbar-aboutus.jpg)|From any page on mobile screen click the nav toggle, select **About Us**  to render. On a tablet or higher directly select About Us.|While on register  page or any other page, click nav toggle burger sign, click About Us  to render page. Users to effortlessly visit About Us page to understand who we are. ![navbar about us before and after](./assets/images/readme-images/manual-test-images/navbar-aboutus-before-after.jpg)|
+|Navbar-Donate|Assist user navigate through the website as it renders the **Donate page** when logo is clicked. ![navbar donate](./assets/images/readme-images/manual-test-images/navbar-donate.jpg)|From any page on mobile screen click the nav toggle, select **Donate**  to render. On a tablet or higher directly select Donate|While on about us  page or any other page, click nav toggle burger sign, click Donate  to render page. Users to effortlessly visit Donate page to support our cause. ![navbar donate before and after](./assets/images/readme-images/manual-test-images/navbar-%20donate%20before%20and%20after.jpg)|
+|Footer-Social Network Icons|Enhances user experience to follow and communicate with **Corby Conservation Union**, hence news updates and conservation  awareness. ![social network](./assets/images/readme-images/footer-mobile-screen.jpg)|From any page in all media screen sizes click on any social network icon **(Facebook, Instagram, X, YouTube and LinkedIn)**. The page will open in new tab.|Social network icons are currently  linked to home page of respective  media . Facilitate users to follow us on  social network and positively impact green and wildlife conservation in any way they can.  Pages opens in a new tab. Links currently points to  login page of social networks included. ![social network before and after](./assets/images/readme-images/manual-test-images/social%20network1%20before-after.jpg)![social network before and after](./assets/images/readme-images/manual-test-images/social%20network2%20before-after.jpg)
+|Register Form|Specific user need is to become a member by registering with Corby Conservation Union. The main details required on the form is First and Last name, email address and conservation preference. Which is then submitted. ![register form](./assets/images/readme-images/manual-test-images/register-form.jpg)|On Register page in all screen sizes fill in the form with First and last name, with email address. All fields must be completed with the correct details and conservation preference selected before submitting the form through **Get Involved** button.|When form is completed as correctly expected output is as follows: ![register input and output](./assets/images/readme-images/manual-test-images/register%20input-output.jpg)When form is not completed correctly e.g. incomplete or no **email address**, error message is displayed.When **name** field is empty and error is displayed. ![rigister missing email or name](./assets/images/readme-images/manual-test-images/register-email-name.jpg)|
+|Donate Form|To support Corby Conservation Union, users will use donate form to provide banking details and amount they wish to donate. ![donate form](./assets/images/readme-images/manual-test-images/donate-form.jpg)|YYYYYYYYYYYYYYY|GGGGGGGGGGGGGGG|
+|
+
+### Lighthouse Perfomance
+### Validation Testing
+### Browser compatibility
+### Screen sizes Responsiveness
+### Accessibility
+## Technologies Used
 #### Bugs Resolved
 #### Bugs Unresolved
 ## Deployment
