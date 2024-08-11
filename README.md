@@ -199,17 +199,19 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 |Navbar-Donate|For mobile media screen click on nav toggle on each page then select Donate. For tablets and higher click directly on Donate link on each page.|User is taken to **Donate page**|
 |Footer-Social Network Icons|On the footer click each social network icon on each page.|User is taken to each social network home page **(opens in a new tab)**|
 |Register Form|On Register page submit partially filled form and empty form respectively|Error signalling required input fields |
-|Donate Form|On Donate page /workspace/Corby-Conservation-Club/assets/images/code-validation-imagessubmit partially filled form and empty form respectively|Error signalling required input fields |
+|Donate Form|On Donate page submit partially filled form and empty form respectively|Error signalling required input fields |
 |
 ### Lighthouse Perfomance
 ### Validation Testing
 |Page Tested|Screenshot of Errors and Warnings   |Solution Applied|Screenshot of clear Validation Output|
 |:------------|:----------------|:-------------|:------------|
 |Index.html|![index-html error one](./assets/images/readme-images/code-validation-images/index-html%20error-one.jpg) ![index-html error three](./assets/images/readme-images/code-validation-images/index-html%20error-three.jpg) ![index-html error two](./assets/images/readme-images/code-validation-images/index-html%20error-two.jpg) ![index-html warnings](./assets/images/readme-images/code-validation-images/index-html-warnings.jpg)| **1**. Comment out section attribute from section end tag and moved attribute to opening tag.<br> **2** Add closing tag on section element <br> **3**. Comment out the open p element nested in main element.<br>**4**. Comment out h3 elements in event section and replaced with p element to nest the favicons|![index-html clear validation output](./assets/images/readme-images/code-validation-images/index-html%20clear%20validation%20output.jpg)
-|
-|
-|
-|
+|Gallery.html|  No Error or Warning|Not Applicable |![gallery-html clear error validation output](./assets/images/readme-images/code-validation-images/gallery-html%20clear%20validation%20output.jpg)
+|Register.html|No Error or Warning|Not Applicable|![register-html clear error validation output](./assets/images/readme-images/code-validation-images/register-html%20clear%20validation%20output.jpg)
+|Aboutus.html|No Error or Warning|Not Applicable |![about us-html clear validation output](./assets/images/readme-images/code-validation-images/aboutus-html%20clear%20validation%20output.jpg)
+|Donate.html| **No Error**, two Warnings ![donate-html warnings](./assets/images/readme-images/code-validation-images/donate-html%20warnings.jpg)| None as these are warning|![donate-html warning](./assets/images/readme-images/code-validation-images/donate-html%20warnings.jpg)
+|Thank-you.html|No Error or Warning|Not Applicable|![thank-you validation output](./assets/images/readme-images/code-validation-images/thank-you%20clear%20validation%20output.jpg)|
+|Style.css|No Error|Not Applicable|![style-css validation output](./assets/images/readme-images/code-validation-images/style-css%20clear%20validator%20output.jpg)|
 |
 ### Browser compatibility
 ### Screen sizes Responsiveness
