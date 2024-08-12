@@ -203,8 +203,8 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 ### Lighthouse Performance
 |View Tested|   Outcome of the audit  |Soulution Applied|Screenshot of clear Validator output|
 |:------------|:----------------|:-------------|:------------|
-|Mobile|![lighthouse report mobile](./assets/images/Lighthouse-images/lighthouse%20report%20mobile.jpg)|Lighthouse mobile, reseized background images for home page (hero-image, donation-page, and register page) to reduce size styled CSS to fit. Re moved dormant CSS  declarations.|![lighthouse mobile clear report](./assets/images/Lighthouse-images/lighthouse%20report2%20mobile.jpg)|
-|Desktop|![lighhouse report desktop](./assets/images/Lighthouse-images/lighthouse%20report%20desktop.jpg)|Lighthouse mobile, reseized background images for home page (hero-image, donation-page, and register page) to reduce size styled CSS to fit. Re moved dormant CSS  declarations.|![lighthouse desktop clear report](./assets/images/Lighthouse-images/lighthouse%20report2%20desktop.jpg)|
+|Mobile|![lighthouse report mobile](./assets/images/Lighthouse-images/lighthouse%20report%20mobile.jpg)|Reseized background images for home page (hero-image, donation-page, and register page) to reduce size styled CSS to fit. Re moved dormant CSS  declarations.|![lighthouse mobile clear report](./assets/images/Lighthouse-images/lighthouse%20report2%20mobile.jpg)|
+|Desktop|![lighhouse report desktop](./assets/images/Lighthouse-images/lighthouse%20report%20desktop.jpg)|Reseized background images for home page (hero-image, donation-page, and register page) to reduce size styled CSS to fit. Re moved dormant CSS  declarations.|![lighthouse desktop clear report](./assets/images/Lighthouse-images/lighthouse%20report2%20desktop.jpg)|
 |
 ### Validation Testing
 |Page Tested|Screenshot of Errors and Warnings   |Solution Applied|Screenshot of clear Validation Output|
@@ -240,6 +240,11 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 [CSS](https://en.wikipedia.org/wiki/CSS)
 #### Bugs Resolved
 #### Bugs Unresolved
+### Libraries
+* [Google Fonts](https://fonts.google.com/) fonts were used to import the “Montserrat and Lato” font into the style.css file which is used on all pages throughout the project.  
+* [GitHub](https://github.com/)  is used to store the projects code after being pushed from [Gitpod](https://codeinstitute-ide.net/new) were the work station is created.
+* [Font Awesom](https://fontawesome.com/search?q=charity&o=r&m=free) was used on all pages throughout the website to add icons for aesthetic and user experience  purposes.  
+* Windows photo editor was used to resize images
 ## Deployment
 The project was deployed to GitHub Pages using the following steps..
 1.	Log in to GitHub and locate [my repository](<https://github.com/Cutbert1/Corby-Conservation-Club> ) 
@@ -251,14 +256,15 @@ The project was deployed to GitHub Pages using the following steps..
 7.	Click **github-pages** to see the live URL
 
 ## Credits
+
 ### Codes
 Code Institute [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/6.1-lets-add-some-images)
 ### Tutorials
-Code Institute HTML CSS training  
-Tutor Support  
-Mentor  
-[stackoverflow](https://stackoverflow.com/questions/23739224/empty-heading-warning-on-html5-validation)
+* Code Institute HTML CSS training  
+* Tutor Support  
+* Mentor  
+* [stackoverflow](https://stackoverflow.com/questions/23739224/empty-heading-warning-on-html5-validation)
 ### Photos
-[pixel.com](https://www.pexels.com/)
+* [pixel.com](https://www.pexels.com/)
 ### Text Content
-[Wildlife Trust](https://www.wildlifetrusts.org/get-involved/membership)
+* [Wildlife Trust](https://www.wildlifetrusts.org/get-involved/membership)
