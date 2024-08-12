@@ -172,6 +172,7 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 * Donate button can be linked to banks via financial services network like visa, master card etc.
 * Videos, iframe or pictures functionalities that illustrates green and wildlife conservation  can be added to gallery.html file
 * News feed can be added to present news specifically targeted to green and wildlife conservation, including any announcement from Corby Conservation Union.
+*
 ## Manual Testing
 ### Features Testing
 |Key Features|   User Value   |Functionality Test|Outcome|
@@ -226,7 +227,19 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 ### Browser compatibility
 ### Screen sizes Responsiveness
 ### Accessibility
+|Color Contrats Testing|Alternative Test for Images |Outcome|
+|:------------|:------------------|:---------------|
+|Home Page|Alternative used throughout the page for images|No Contrast error. 1 empty label error- Unable to fix as nav-toggle label is a burger favicon. One alert for redundant link, this is for href= index-html. The error and alert is on the header hence runs throughout the other pages.![Home page accessibility](./assets/images/readme-images/code-validation-images/accessibility%20report-home.jpg) 
+|Gallery Page|Alternative used throughout the page for images|No Contrast error. 1 empty label error- Unable to fix as nav-toggle label is a burger favicon. One alert for redundant link, this is for href= index-html. The error and alert is on the header hence runs throughout the other pages.![Gallery page accessibility report](./assets/images/readme-images/code-validation-images/accessibility%20report-gallery.jpg) 
+|Register Page|Alternative used throughout the page for images|No Contrast error. 1 empty label error- Unable to fix as nav-toggle label is a burger favicon. 1 alert for redundant link, this is for href= index-html. The error and alert is on the header hence runs throughout the other pages. 8 contrast due to label names and text input border white color. ![register accessibility report](./assets/images/readme-images/code-validation-images/accessibility%20report-register.jpg)
+|About Us Page|Alternative used throughout the page for images|1 Contrast error. 1 empty label error- Unable to fix as nav-toggle label is a burger favicon. 2 alerts for redundant link and a heading level skipped, this is for href= index-html. The error and alert is on the header hence runs throughout the other pages. ![About us accessibility report](./assets/images/readme-images/code-validation-images/accessibility%20report-aboutus.jpg)Updated the "About Us" color from white to black. Updted "purpuse" div from h3 to h2 and reduced the font-size. Corrected result ![About us accessibility clear report](./assets/images/readme-images/code-validation-images/accessibility%20clear%20report-aboutus.jpg)| 
+|Donate Page|Alternative used throughout the page for images |9 Contrast error. 1 empty label error- Unable to fix as nav-toggle label is a burger favicon. 1 alerts for redundant link and a heading level skipped, this is for href= index-html. The error and alert is on the header hence runs throughout the other pages. ![Donate page accessibility report](./assets/images/readme-images/code-validation-images/accessibility%20report-donate.jpg)Donate-button background color  updated from label olive green to black. All input text  color text updated from azure to white.![donate clear accessibility report ](./assets/images/readme-images/code-validation-images/accessibility%20clear%20report-donate.jpg)|
+|Thank-You page|Alternative used for image|1 Contrast error. 1 empty label error- Unable to fix as nav-toggle label is a burger favicon. 1 alerts for redundant link and a heading level skipped, this is for href= index-html. The error and alert is on the header hence runs throughout the other pages.![Thank you accessibility report](./assets/images/readme-images/code-validation-images/accessibility%20clear%20report-thankyou.jpg)|
+|
 ## Technologies Used
+### Languages Used
+[HTML5](https://en.wikipedia.org/wiki/HTML5)  
+[CSS](https://en.wikipedia.org/wiki/CSS)
 #### Bugs Resolved
 #### Bugs Unresolved
 ## Deployment

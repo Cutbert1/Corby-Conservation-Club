@@ -89,31 +89,25 @@
  /* Main Content */
  main {
       /* Main element occupy excess space to force footer down */
-      flex: 1 0 auto;
-           
+      flex: 1 0 auto;  
+      
  }
 
- /* Register page */
- main {
-   flex: 1 0 auto;
-   display: flex;
-   flex-direction: column;
- }
 
- #register {
-   background-image: url(../images/go-greennn.jpg);
+
+  #register {
+   background-image: url(../images/go-greennn3.jpg);
    background-size: cover;
    background-position: 75%;
    padding: 20px 10% 0 10%;
-   flex-grow: 1;
-   
+   height: 850px;
+   width: 100%;
+   position: relative;
  }
-#registration-form {
-   color: azure;
+
+ #registration-form {
    padding: 30px;
 }
-
-
 
 #register h2 {
    color: white;
@@ -148,10 +142,9 @@ label {
 
 .join-button {
    margin-top: 20px;
-   border-radius: 2px;
    padding: 15px 20px;
    font-size: 100%;
-   background-color: rgba(111, 129, 88);
+   background-color: black; 
    color: white;
    position: absolute;
    font-weight: bold;
@@ -167,7 +160,7 @@ label {
 
  #cover-text {
     font-family: "Montserrat", sans-serif;
-    color: azure;
+    color: white;
     text-transform: uppercase;
     letter-spacing: 2px;
     background-color: rgba(111, 129, 88, 0.4);
@@ -223,7 +216,7 @@ label {
 }
 
 #activities div {
-   color: azure;
+   color: white;
    background-color: rgba(0, 0, 0, 0.4);
    padding: 15px;
    text-align: center;
@@ -243,7 +236,7 @@ label {
 }
 
 #aboutus {
-   color: white;
+   color: black;
    text-align: center;
    position: relative;
 }
@@ -262,7 +255,8 @@ label {
    padding-left: 10px;
    padding-right: 10px;
    flex-direction: column;
-   margin: 20px;  
+   margin: 20px; 
+   font-size: 10px; 
 }
 
 .who-we-are {
@@ -323,10 +317,9 @@ label {
 
  .donate-button {
    margin-top: 20px;
-   border-radius: 2px;
    padding: 15px 20px;
    font-size: 100%;
-   background-color: rgba(111, 129, 88);
+   background-color: black;
    color: white;
    position: absolute;
    font-weight: bold;
@@ -346,7 +339,7 @@ label {
  }
  /* Thank you page */
  .thank-you {
-   background-image: url(../images/thank-you.jpg);
+   background-image: url(../images/thank-you1.jpg);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -355,7 +348,7 @@ label {
  }
 
  .thank-you h1 {
-   color: azure;
+   color: white;
    font-size: 3rem;
    text-align: center;
    position: relative;
