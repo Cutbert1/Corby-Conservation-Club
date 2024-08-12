@@ -18,7 +18,7 @@ The Montserrat font is used  all through the website. Sans Serif is used as the 
 #### Imagery
 The hero image is designed to aligned with the theme of the project showing outstanding green conservation surrounded by water and a house built with non-synthetic but  natural materials. Other images through the projects also focuses on green and animal  conservation.
 ## Features
-The  core features/functionality of  this project is categorised as below. Features left unimplemented are also highlighted in this section.
+The  core features/functionality of  this project is categorised as below. Future improvements are also highlighted in this section.
 ### Existing Features
 #### Navbar
 A responsive navigation header where all the links to other html pages are embedded. Burger icon is used to indicate  navbar in mobile screens and landscape. For media screen 786px and up (tablets) navigation to other pages are indicated at the header. 
@@ -242,6 +242,13 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 [HTML5](https://en.wikipedia.org/wiki/HTML5)  
 [CSS](https://en.wikipedia.org/wiki/CSS)
 #### Bugs Resolved
+|Bugs|   Description |Solution Applied|Results|
+|:------------|:----------------|:-------------|:------------|
+|#register background image styling|#register id was styled with height: 850px and media query 768px and up background position :centre;  but the image was cutting off when the screen size increases to 1291px. ![#register bug](./assets/images/bugs-images/register%20bug.jpg)|Image resized  and height updated to 100vh, media query 768px and up, background position updated to top.|Bug resolved: ![#register bug fix](./assets/images/bugs-images/register%20bug-fix.jpg)|
+|#donation-from, maximum character for card and CVC number|Card and CVC field were taken more that 16  and 3 characters respectively. ![donate form bug](./assets/images/bugs-images/donate%20form%20bug.jpg)|Updated input type to text, declared  inputmode=numneric, maxlenght=16 and 3 respectively.|![donate form bug fix](./assets/images/bugs-images/donate%20form%20bug-fix.jpg)|
+|#donation styling not pushing down to the footer|Position declaration caused a gap between #donation and footer. ![donation form bug 2](./assets/images/bugs-images/donate%20form2%20bug.jpg)|Comment out  position: fixed; and declared height:100vh; in stylesheet|![donation form bug fix 2](./assets/images/bugs-images/donate%20form2%20bug-fix.jpg)|
+|GGallry page load slowly|Gallery loading speed was very slow, hence page load slowly, even with compressed images|Resized the images|Loading a lot faster|
+|
 #### Bugs Unresolved
 ### Libraries
 * [Google Fonts](https://fonts.google.com/) fonts were used to import the “Montserrat and Lato” font into the style.css file which is used on all pages throughout the project.  
@@ -263,9 +270,10 @@ The project was deployed to GitHub Pages using the following steps..
 ### Codes
 Code Institute [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/6.1-lets-add-some-images)
 ### Tutorials
-* Code Institute HTML CSS training  
+* Code Institute HTML | CSS Programme 
 * Tutor Support  
 * Mentor  
+* Code Institute Slack Community 
 * [stackoverflow](https://stackoverflow.com/questions/23739224/empty-heading-warning-on-html5-validation)
 ### Photos
 * [pixel.com](https://www.pexels.com/)
