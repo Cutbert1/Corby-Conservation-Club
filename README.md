@@ -173,8 +173,6 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 * Videos, iframe or pictures functionalities that illustrates green and wildlife conservation  can be added to gallery.html file
 * News feed can be added to present news specifically targeted to green and wildlife conservation, including any announcement from Corby Conservation Union.
 ## Manual Testing
-### Quality Assurance
-### User Experience Assurance
 ### Features Testing
 |Key Features|   User Value   |Functionality Test|Outcome|
 |:------------|:----------------|:-------------|:------------|
@@ -201,7 +199,14 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 |Register Form|On Register page submit partially filled form and empty form respectively|Error signalling required input fields |
 |Donate Form|On Donate page submit partially filled form and empty form respectively|Error signalling required input fields |
 |
-### Lighthouse Perfomance
+### Lighthouse Performance
+|View Tested|   Outcome of the audit  |Soulution Applied|Screenshot of clear Validator output|
+|:------------|:----------------|:-------------|:------------|
+|Mobile|![lighthouse report mobile](./assets/images/Lighthouse-images/lighthouse%20report%20mobile.jpg)|
+|Desktop|![lighhouse report desktop](./assets/images/Lighthouse-images/lighthouse%20report%20desktop.jpg)|
+|
+|
+|
 ### Validation Testing
 |Page Tested|Screenshot of Errors and Warnings   |Solution Applied|Screenshot of clear Validation Output|
 |:------------|:----------------|:-------------|:------------|
@@ -209,7 +214,7 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 |Gallery.html|  No Error or Warning|Not Applicable |![gallery-html clear error validation output](./assets/images/readme-images/code-validation-images/gallery-html%20clear%20validation%20output.jpg)
 |Register.html|No Error or Warning|Not Applicable|![register-html clear error validation output](./assets/images/readme-images/code-validation-images/register-html%20clear%20validation%20output.jpg)
 |Aboutus.html|No Error or Warning|Not Applicable |![about us-html clear validation output](./assets/images/readme-images/code-validation-images/aboutus-html%20clear%20validation%20output.jpg)
-|Donate.html| **No Error**, two Warnings ![donate-html warnings](./assets/images/readme-images/code-validation-images/donate-html%20warnings.jpg)| None as these are warning|![donate-html warning](./assets/images/readme-images/code-validation-images/donate-html%20warnings.jpg)
+|Donate.html| **No Error**, two Warnings ![donate-html warnings](./assets/images/readme-images/code-validation-images/donate-html%20warnings.jpg)| None as these are warnings|![donate-html warning](./assets/images/readme-images/code-validation-images/donate-html%20warnings.jpg)
 |Thank-you.html|No Error or Warning|Not Applicable|![thank-you validation output](./assets/images/readme-images/code-validation-images/thank-you%20clear%20validation%20output.jpg)|
 |Style.css|No Error|Not Applicable|![style-css validation output](./assets/images/readme-images/code-validation-images/style-css%20clear%20validator%20output.jpg)|
 |
