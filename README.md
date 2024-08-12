@@ -203,16 +203,9 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 ### Lighthouse Performance
 |View Tested|   Outcome of the audit  |Soulution Applied|Screenshot of clear Validator output|
 |:------------|:----------------|:-------------|:------------|
-|Mobile|![lighthouse report mobile](./assets/images/Lighthouse-images/lighthouse%20report%20mobile.jpg)|
-|Desktop|![lighhouse report desktop](./assets/images/Lighthouse-images/lighthouse%20report%20desktop.jpg)|
+|Mobile|![lighthouse report mobile](./assets/images/Lighthouse-images/lighthouse%20report%20mobile.jpg)|Lighthouse mobile, reseized background images for home page (hero-image, donation-page, and register page) to reduce size styled CSS to fit. Re moved dormant CSS  declarations.|![lighthouse mobile clear report](./assets/images/Lighthouse-images/lighthouse%20report2%20mobile.jpg)|
+|Desktop|![lighhouse report desktop](./assets/images/Lighthouse-images/lighthouse%20report%20desktop.jpg)|Lighthouse mobile, reseized background images for home page (hero-image, donation-page, and register page) to reduce size styled CSS to fit. Re moved dormant CSS  declarations.|![lighthouse desktop clear report](./assets/images/Lighthouse-images/lighthouse%20report2%20desktop.jpg)|
 |
-### Accessibility
-|Color Contrast Testing|Alternative Test for Images|Outcome|
-|:------------|:----------------|:-------------|
-|
-|
-|
-
 ### Validation Testing
 |Page Tested|Screenshot of Errors and Warnings   |Solution Applied|Screenshot of clear Validation Output|
 |:------------|:----------------|:-------------|:------------|
@@ -226,10 +219,15 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 |
 ### Browser compatibility
 ### Screen sizes Responsiveness
+|Device Tested|Site responsive |Site responsive|Render as expected|
+|:------------|:----------------|:-------------|:--------------|
+|
+|
+|
 ### Accessibility
 |Color Contrats Testing|Alternative Test for Images |Outcome|
 |:------------|:------------------|:---------------|
-|Home Page|Alternative used throughout the page for images|No Contrast error. 1 empty label error- Unable to fix as nav-toggle label is a burger favicon. One alert for redundant link, this is for href= index-html. The error and alert is on the header hence runs throughout the other pages.![Home page accessibility](./assets/images/readme-images/code-validation-images/accessibility%20report-home.jpg) 
+|Home Page|Alternative used throughout the page for images|No Contrast error. 1 empty label error. Unable to fix as nav-toggle label is a burger favicon. One alert for redundant link, this is for href= index-html. The error and alert is on the header hence runs throughout the other pages.![Home page accessibility](./assets/images/readme-images/code-validation-images/accessibility%20report-home.jpg) 
 |Gallery Page|Alternative used throughout the page for images|No Contrast error. 1 empty label error- Unable to fix as nav-toggle label is a burger favicon. One alert for redundant link, this is for href= index-html. The error and alert is on the header hence runs throughout the other pages.![Gallery page accessibility report](./assets/images/readme-images/code-validation-images/accessibility%20report-gallery.jpg) 
 |Register Page|Alternative used throughout the page for images|No Contrast error. 1 empty label error- Unable to fix as nav-toggle label is a burger favicon. 1 alert for redundant link, this is for href= index-html. The error and alert is on the header hence runs throughout the other pages. 8 contrast due to label names and text input border white color. ![register accessibility report](./assets/images/readme-images/code-validation-images/accessibility%20report-register.jpg)
 |About Us Page|Alternative used throughout the page for images|1 Contrast error. 1 empty label error- Unable to fix as nav-toggle label is a burger favicon. 2 alerts for redundant link and a heading level skipped, this is for href= index-html. The error and alert is on the header hence runs throughout the other pages. ![About us accessibility report](./assets/images/readme-images/code-validation-images/accessibility%20report-aboutus.jpg)Updated the "About Us" color from white to black. Updted "purpuse" div from h3 to h2 and reduced the font-size. Corrected result ![About us accessibility clear report](./assets/images/readme-images/code-validation-images/accessibility%20clear%20report-aboutus.jpg)| 
@@ -244,7 +242,7 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 #### Bugs Unresolved
 ## Deployment
 The project was deployed to GitHub Pages using the following steps..
-1.	Log in to GitHub and locate my repository <https://github.com/Cutbert1/Corby-Conservation-Club> 
+1.	Log in to GitHub and locate [my repository](<https://github.com/Cutbert1/Corby-Conservation-Club> ) 
 2.	At the top of the Repository (not top of page), locate the **Settings** Button on the menu.
 3.	Scroll down the Settings until you locate the **Pages**, then click.
 4.	In the **Build and Deployment**, select **main branch** and ensure the folder is set to **root folder** and click **save**
@@ -254,6 +252,13 @@ The project was deployed to GitHub Pages using the following steps..
 
 ## Credits
 ### Codes
+Code Institute [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/6.1-lets-add-some-images)
 ### Tutorials
+Code Institute HTML CSS training  
+Tutor Support  
+Mentor  
+[stackoverflow](https://stackoverflow.com/questions/23739224/empty-heading-warning-on-html5-validation)
 ### Photos
+[pixel.com](https://www.pexels.com/)
 ### Text Content
+[Wildlife Trust](https://www.wildlifetrusts.org/get-involved/membership)
