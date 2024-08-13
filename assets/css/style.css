@@ -339,9 +339,9 @@ label {
  }
  /* Thank you page */
  .thank-you {
-   background-image: url(../images/thank-you2.jpg);
+   background-image: url(../images/thank-you.jpg);
    background-position: center;
-   background-repeat: no-repeat;
+   background-repeat:no-repeat;
    background-size: cover;
    height: 100vh;
    
@@ -357,7 +357,6 @@ label {
    left: 50%;
    transform: translate(-50%, -50%)
  }
-
 
 /* Media query: landscape phones (570px and up) */
 @media screen and (min-width: 570px) {
@@ -488,7 +487,7 @@ label {
       background-color: azure;
       color: #606060;
     }
-      
+
  }
 
  /* Media query: larger devices (laptop and desktops, 981px and up) */

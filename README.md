@@ -186,7 +186,7 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 |Footer-Social Network Icons|Enhances user experience to follow and communicate with **Corby Conservation Union**, hence news updates and conservation  awareness. ![social network](./assets/images/readme-images/footer-mobile-screen.jpg)|From any page in all media screen sizes click on any social network icon **(Facebook, Instagram, X, YouTube and LinkedIn)**. The page will open in new tab.|Social network icons are currently  linked to home page of respective  media . Facilitate users to follow us on  social network and positively impact green and wildlife conservation in any way they can.  Pages opens in a new tab. Links currently points to  login page of social networks included. ![social network before and after](./assets/images/readme-images/manual-test-images/social%20network1%20before-after.jpg)![social network before and after](./assets/images/readme-images/manual-test-images/social%20network2%20before-after.jpg)
 |Register Form|Specific user need is to become a member by registering with Corby Conservation Union. The main details required on the form is First and Last name, email address and conservation preference. Which is then submitted. ![register form](./assets/images/readme-images/manual-test-images/register-form.jpg)|On **Register page** in all screen sizes fill in the form with First and last name, with email address. All fields must be completed with the correct details and conservation preference selected before submitting the form through **Get Involved** button.|When form is completed as correctly expected output is as follows: ![register input and output](./assets/images/readme-images/manual-test-images/register%20input-output.jpg)When form is not completed correctly e.g. incomplete or no **email address**, error message is displayed.When **name** field is empty and error is displayed. ![rigister missing email or name](./assets/images/readme-images/manual-test-images/register-email-name.jpg)|
 |Donate Form|To support Corby Conservation Union, users will use donate form to provide banking details and amount they wish to donate. ![donate form](./assets/images/readme-images/manual-test-images/donate-form.jpg)|On Donate page in all screen sizes fill in the form with  name on card, card number maximum of 16 digits, card expiry date, CVC card number maximum of 3 digits and amount user wish to donate. The card and CVC number inputs are alphanumeric, however form will not submit if populated with letters. Users are unable to input more than 16 digits for card number and 3 digits for CVC number. Amount input is restricted to numeric input. All conditions must be met before form can submit. Donate button is linked to a **Thank you page**|When all inputs are completed as expected output links to a **Thank you page**.![donate before and after](./assets/images/readme-images/manual-test-images/donate%20before%20and%20after.jpg)When form is not completed correctly e.g. alpha input on card or CVC number, empty input fields. The **error messages** are shown as below and form will not submit. ![donate error](./assets/images/readme-images/manual-test-images/donate%20errors.jpg)|
-|
+
 ### Features Test Result Compilation
 |Key Features|   Test Case  |Outcome|
 |:------------|:----------------|:-------------|
@@ -199,13 +199,13 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 |Footer-Social Network Icons|On the footer click each social network icon on each page.|User is taken to each social network home page **(opens in a new tab)**|
 |Register Form|On Register page submit partially filled form and empty form respectively|Error signalling required input fields |
 |Donate Form|On Donate page submit partially filled form and empty form respectively|Error signalling required input fields |
-|
+
 ### Lighthouse Performance
 |View Tested|   Outcome of the audit  |Soulution Applied|Screenshot of clear Validator output|
 |:------------|:----------------|:-------------|:------------|
 |Mobile|![lighthouse report mobile](./assets/images/Lighthouse-images/lighthouse%20report%20mobile.jpg)|Reseized background images for home page (hero-image, donation-page, and register page) to reduce size styled CSS to fit. Re moved dormant CSS  declarations.|![lighthouse mobile clear report](./assets/images/Lighthouse-images/lighthouse%20report2%20mobile.jpg)|
 |Desktop|![lighhouse report desktop](./assets/images/Lighthouse-images/lighthouse%20report%20desktop.jpg)|Reseized background images for home page (hero-image, donation-page, and register page) to reduce size styled CSS to fit. Re moved dormant CSS  declarations.|![lighthouse desktop clear report](./assets/images/Lighthouse-images/lighthouse%20report2%20desktop.jpg)|
-|
+
 ### Validation Testing
 |Page Tested|Screenshot of Errors and Warnings   |Solution Applied|Screenshot of clear Validation Output|
 |:------------|:----------------|:-------------|:------------|
@@ -216,7 +216,7 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 |Donate.html| **No Error**, two Warnings ![donate-html warnings](./assets/images/readme-images/code-validation-images/donate-html%20warnings.jpg)| None as these are warnings|![donate-html warning](./assets/images/readme-images/code-validation-images/donate-html%20warnings.jpg)
 |Thank-you.html|No Error or Warning|Not Applicable|![thank-you validation output](./assets/images/readme-images/code-validation-images/thank-you%20clear%20validation%20output.jpg)|
 |Style.css|No Error|Not Applicable|![style-css validation output](./assets/images/readme-images/code-validation-images/style-css%20clear%20validator%20output.jpg)|
-|
+
 ### Browser compatibility
 |Browser Tested|Functionality Tested|Visual Consistency|Outcome|
 |:------------:|:----------------:|:-------------:|:-------------:|
@@ -229,7 +229,7 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 |![chrome](./assets/images/readme-images/browser-compatibility-image/chrome.jpg)|Good|Good|
 |![Firefox](./assets/images/readme-images/browser-compatibility-image/firefox.jpg)|Good|Good|
 |![edge](./assets/images/readme-images/browser-compatibility-image/edge.jpg)|Godd|Good|
-|
+
 ### Screen sizes Responsiveness  
 ![Web page in common screen sizes](./assets/images/common%20screen%20sizes.jpg)
 |Device Tested|Site responsive >=700px |Site responsive <699px|Render as expected|
@@ -238,11 +238,12 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 |iPad Mini (Tablet)|Good|N/A|Good 768px X 1024px ![iPad Mini](./assets/images/readme-images/responsiveness-images/ipad%20mini.jpg)|
 |iPad Air (Laptop)|Good|N/A|Good 820px X 1180px ![iPad air](./assets/images/readme-images/responsiveness-images/ipad%20air.jpg)|
 |Nest Hub Max (Desktop)|Good|N/A|Good 1280px X 800px ![nest hub max](./assets/images/readme-images/responsiveness-images/nest%20hub%20max.jpg)|
+
 ### Pages Responsivnes
 |Home Page|Register Page|Gallery Page|About Us Page|Donation Page|Thank you Page|
 |:------------:|:----------------:|:-------------:|:--------------:|:--------:|:------:|
 |![home page](./assets/images/readme-images/responsiveness-images/home%20page.jpg)|![Register page](./assets/images/readme-images/responsiveness-images/register%20page.jpg)|![gallery page](./assets/images/readme-images/responsiveness-images/gallery%20page.jpg)|![about us page](./assets/images/readme-images/responsiveness-images/aboutus%20page.jpg)|![donation page](./assets/images/readme-images/responsiveness-images/donation%20page.jpg)|![thank you page](./assets/images/readme-images/responsiveness-images/thankyou%20page.jpg)|
-|
+
 ### Accessibility
 |Color Contrats Testing|Alternative Text for Images |Outcome|
 |:------------|:------------------|:---------------:|
@@ -259,14 +260,18 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 [CSS](https://en.wikipedia.org/wiki/CSS)  
 ## Bugs
 #### Bugs Resolved
-|Bugs|   Description |Solution Applied|Results|
+|Bug|   Description |Solution Applied|Result|
 |:------------|:----------------|:-------------|:------------|
 |#register background image styling|#register id was styled with height: 850px and media query 768px and up background position :centre;  but the image was cutting off when the screen size increases to 1291px. ![#register bug](./assets/images/bugs-images/register%20bug.jpg)|Image resized  and height updated to 100vh, media query 768px and up, background position updated to top.|Bug resolved: ![#register bug fix](./assets/images/bugs-images/register%20bug-fix.jpg)|
 |#donation-from, maximum character for card and CVC number|Card and CVC field were taken more that 16  and 3 characters respectively. ![donate form bug](./assets/images/bugs-images/donate%20form%20bug.jpg)|Updated input type to text, declared  inputmode=numneric, maxlenght=16 and 3 respectively.|![donate form bug fix](./assets/images/bugs-images/donate%20form%20bug-fix.jpg)|
-|#donation styling not pushing down to the footer|Position declaration caused a gap between #donation and footer. ![donation form bug 2](./assets/images/bugs-images/donate%20form2%20bug.jpg)|Comment out  position: fixed; and declared height:100vh; in stylesheet|![donation form bug fix 2](./assets/images/bugs-images/donate%20form2%20bug-fix.jpg)|
+|#donation styling not pushing down to the footer|Position declaration caused a gap between #donation and footer element. ![donation form bug 2](./assets/images/bugs-images/donate%20form2%20bug.jpg)|Comment out  position: fixed; and declared height:100vh; in stylesheet|![donation form bug fix 2](./assets/images/bugs-images/donate%20form2%20bug-fix.jpg)|
 |Gallery page load slowly|Gallery loading speed was very slow, hence page load slowly, even with compressed images|Resized the images|Loading a lot faster|
-|
+
 #### Bugs Unresolved
+|Bug|   Description |Solution Applied|Result|
+|:------------|:----------------|:-------------|:------------|
+|Thank you page, background image zoom out on large screen sizes|Background image  zooms out as the screen size increases, hence bottom of image not visible enough on large screen. ![680px](./assets/images/bugs-images/680px%20bug.jpg) ![image bottom not visible](./assets/images/bugs-images/not%20visible.jpg)|Added media query styling for 570px and up. Resized and compressed the image |Unresolved|
+
 ### Libraries
 * [Google Fonts](https://fonts.google.com/) fonts were used to import the “Montserrat and Lato” font into the style.css file which is used on all pages throughout the project.  
 * [GitHub](https://github.com/)  is used to store the projects code after being pushed from [Gitpod](https://codeinstitute-ide.net/new) were the work station is created.
@@ -281,9 +286,7 @@ The project was deployed to GitHub Pages using the following steps..
 5.	Return to code tab of GitHub repo. Delay for few minutes to enable the build finish, then refresh  the page. 
 6.	Check deployment section on the code page (right hand side bar)
 7.	Click **github-pages** to see the live URL
-
 ## Credits
-
 ### Codes
 Code Institute [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/6.1-lets-add-some-images)
 ### Tutorials
