@@ -2,9 +2,6 @@
 ## Introduction
 #### Project Description
 Project is to campaign, convey and provide insight on what Corby Conservation Union do, hence portray the importance of conservation of nature (green and animal conservation).  
-
-![Web page in common screen sizes](./assets/images/common%20screen%20sizes.jpg)  
-
 #### Project Purpose
 The project is aimed at communicating with local, national and international audience the importance of conservation of our environment for future generation. This entails green and animal conservation, to reduce natural disaster experienced round the globe. Thus encourage every individual to play their part in any way they can.
 The project provides several interactive features to enable users learn more about the organisation and easily navigate through the site to find desired content and support the organisation to continue conserving our ecosystem.
@@ -221,11 +218,18 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 |Style.css|No Error|Not Applicable|![style-css validation output](./assets/images/readme-images/code-validation-images/style-css%20clear%20validator%20output.jpg)|
 |
 ### Browser compatibility
-### Screen sizes Responsiveness
-|Device Tested|Site responsive |Site responsive|Render as expected|
-|:------------|:----------------|:-------------|:--------------|
-|
-|
+### Screen sizes Responsiveness  
+![Web page in common screen sizes](./assets/images/common%20screen%20sizes.jpg)
+|Device Tested|Site responsive >=700px |Site responsive <699px|Render as expected|
+|:------------:|:----------------:|:-------------:|:--------------:|
+|iPhone 12 Pro (Mobile)|N/A|Good|Good 390px X 844px ![iPhone 12 pro](./assets/images/readme-images/responsiveness-images/iphone%2012%20pro.jpg)|  
+|iPad Mini (Tablet)|Good|N/A|Good 768px X 1024px ![iPad Mini](./assets/images/readme-images/responsiveness-images/ipad%20mini.jpg)|
+|iPad Air (Laptop)|Good|N/A|Good 820px X 1180px ![iPad air](./assets/images/readme-images/responsiveness-images/ipad%20air.jpg)|
+|Nest Hub Max (Desktop)|Good|N/A|Good 1280px X 800px ![nest hub max](./assets/images/readme-images/responsiveness-images/nest%20hub%20max.jpg)|
+### Pages Responsivnes
+|Home Page|Register Page|Gallery Page|About Us Page|Donation Page|Thank you Page|
+|:------------:|:----------------:|:-------------:|:--------------:|:--------:|:------:|
+|![home page](./assets/images/readme-images/responsiveness-images/home%20page.jpg)|![Register page](./assets/images/readme-images/responsiveness-images/register%20page.jpg)|![gallery page](./assets/images/readme-images/responsiveness-images/gallery%20page.jpg)|![about us page](./assets/images/readme-images/responsiveness-images/aboutus%20page.jpg)|![donation page](./assets/images/readme-images/responsiveness-images/donation%20page.jpg)|![thank you page](./assets/images/readme-images/responsiveness-images/aboutus%20page.jpg)|
 |
 ### Accessibility
 |Color Contrats Testing|Alternative Test for Images |Outcome|
@@ -240,14 +244,15 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 ## Technologies Used
 ### Languages Used
 [HTML5](https://en.wikipedia.org/wiki/HTML5)  
-[CSS](https://en.wikipedia.org/wiki/CSS)
+[CSS](https://en.wikipedia.org/wiki/CSS)  
+## Bugs
 #### Bugs Resolved
 |Bugs|   Description |Solution Applied|Results|
 |:------------|:----------------|:-------------|:------------|
 |#register background image styling|#register id was styled with height: 850px and media query 768px and up background position :centre;  but the image was cutting off when the screen size increases to 1291px. ![#register bug](./assets/images/bugs-images/register%20bug.jpg)|Image resized  and height updated to 100vh, media query 768px and up, background position updated to top.|Bug resolved: ![#register bug fix](./assets/images/bugs-images/register%20bug-fix.jpg)|
 |#donation-from, maximum character for card and CVC number|Card and CVC field were taken more that 16  and 3 characters respectively. ![donate form bug](./assets/images/bugs-images/donate%20form%20bug.jpg)|Updated input type to text, declared  inputmode=numneric, maxlenght=16 and 3 respectively.|![donate form bug fix](./assets/images/bugs-images/donate%20form%20bug-fix.jpg)|
 |#donation styling not pushing down to the footer|Position declaration caused a gap between #donation and footer. ![donation form bug 2](./assets/images/bugs-images/donate%20form2%20bug.jpg)|Comment out  position: fixed; and declared height:100vh; in stylesheet|![donation form bug fix 2](./assets/images/bugs-images/donate%20form2%20bug-fix.jpg)|
-|GGallry page load slowly|Gallery loading speed was very slow, hence page load slowly, even with compressed images|Resized the images|Loading a lot faster|
+|Gallery page load slowly|Gallery loading speed was very slow, hence page load slowly, even with compressed images|Resized the images|Loading a lot faster|
 |
 #### Bugs Unresolved
 ### Libraries
