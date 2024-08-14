@@ -76,18 +76,19 @@ Image Gallery is a page dedicated to green and animal conservation images compil
 <section id="gallery">
     <h2 class="hidden-heading">Gallery</h2>
     <div id="pictures">
-        <img src="assets/images/peng.jpg" alt="Adélie Penguin getting close extinction">
-        <img src="assets/images/green-peace.jpg" alt="Our team on green peace day">
-        <img src="assets/images/hippo.jpg" alt="African hippo">
-        <img src="assets/images/ccu-plastic.jpg" alt="Sanitizing our rivers">
-        <img src="assets/images/cuu-nature.jpg" alt="Nature">
-        <img src="assets/images/ccu-river.jpg" alt="Sanitizing our local rivers of plastic">
-        <img src="assets/images/ourpeople.jpg" alt="Our people ready for animal rescue">
-        <img src="assets/images/zeb.jpg" alt="African zebra">
-        <img src="assets/images/waterfall.jpg" alt="Corby Conservation union on safari waterfall">
-        <img src="assets/images/splash.jpg" alt="Corby Conservation union brought cave of ggod hope south Africa back to life">
+        <img src="assets/images/pengg.jpg" alt="Adélie Penguin getting close extinction">
+        <img src="assets/images/green-peacee.jpg" alt="Our team on green peace day">
+        <img src="assets/images/hippoo.jpg" alt="African hippo">
+        <img src="assets/images/ccu-plasticc.jpg" alt="Sanitizing our rivers">
+        <img src="assets/images/cuu-naturee.jpg" alt="Nature">
+        <img src="assets/images/ccu-riverr.jpg" alt="Sanitizing our local rivers of plastic">
+        <img src="assets/images/ourpeoplee.jpg" alt="Our people ready for animal rescue">
+        <img src="assets/images/zebb.jpg" alt="African zebra">
+        <img src="assets/images/waterfalll.jpg" alt="Corby Conservation union on safari waterfall">
+        <img src="assets/images/splashh.jpg" alt="Corby Conservation union at cave of good hope south Africa">
+        <img src="assets/images/plant-the-world.jpg" alt="Plant a tree every week">
     </div>
-</section>
+</section
 ```
 ![Image showing the output of the program](./assets/images/readme-images/gallery-page.jpg).
 #### Register Form
@@ -203,7 +204,7 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 ### Lighthouse Performance
 |View Tested|   Outcome of the audit  |Soulution Applied|Screenshot of clear Validator output|
 |:------------|:----------------|:-------------|:------------|
-|Mobile|![lighthouse report mobile](./assets/images/Lighthouse-images/lighthouse%20report%20mobile.jpg)|Reseized background images for home page (hero-image, donation-page, and register page) to reduce size styled CSS to fit. Re moved dormant CSS  declarations.|![lighthouse mobile clear report](./assets/images/Lighthouse-images/lighthouse%20report2%20mobile.jpg)|
+|Mobile|![lighthouse report mobile](./assets/images/Lighthouse-images/lighthouse%20report%20mobile.jpg)|Reseized background images for home page (hero-image, donation-page, and register page) to reduce size styled CSS to fit. Removed dormant CSS  declarations.|![lighthouse mobile clear report](./assets/images/Lighthouse-images/lighthouse%20report2%20mobile.jpg)|
 |Desktop|![lighhouse report desktop](./assets/images/Lighthouse-images/lighthouse%20report%20desktop.jpg)|Reseized background images for home page (hero-image, donation-page, and register page) to reduce size styled CSS to fit. Re moved dormant CSS  declarations.|![lighthouse desktop clear report](./assets/images/Lighthouse-images/lighthouse%20report2%20desktop.jpg)|
 
 ### Validation Testing
@@ -213,7 +214,7 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 |Gallery.html|  No Error or Warning|Not Applicable |![gallery-html clear error validation output](./assets/images/readme-images/code-validation-images/gallery-html%20clear%20validation%20output.jpg)
 |Register.html|No Error or Warning|Not Applicable|![register-html clear error validation output](./assets/images/readme-images/code-validation-images/register-html%20clear%20validation%20output.jpg)
 |Aboutus.html|No Error or Warning|Not Applicable |![about us-html clear validation output](./assets/images/readme-images/code-validation-images/aboutus-html%20clear%20validation%20output.jpg)
-|Donate.html| **No Error**, two Warnings ![donate-html warnings](./assets/images/readme-images/code-validation-images/donate-html%20warnings.jpg)| None as these are warnings|![donate-html warning](./assets/images/readme-images/code-validation-images/donate-html%20warnings.jpg)
+|Donate.html| **No Error**, two Warnings ![donate-html warnings](./assets/images/readme-images/code-validation-images/donate-html%20warnings.jpg)| None, as these are warnings|![donate-html warning](./assets/images/readme-images/code-validation-images/donate-html%20warnings.jpg)
 |Thank-you.html|No Error or Warning|Not Applicable|![thank-you validation output](./assets/images/readme-images/code-validation-images/thank-you%20clear%20validation%20output.jpg)|
 |Style.css|No Error|Not Applicable|![style-css validation output](./assets/images/readme-images/code-validation-images/style-css%20clear%20validator%20output.jpg)|
 
@@ -270,7 +271,7 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 #### Bugs Unresolved
 |Bug|   Description |Solution Applied|Result|
 |:------------|:----------------|:-------------|:------------|
-|Thank you page, background image zoom out on large screen sizes|Background image  zooms out as the screen size increases, hence bottom of image not visible enough on large screen. ![680px](./assets/images/bugs-images/680px%20bug.jpg) ![image bottom not visible](./assets/images/bugs-images/not%20visible.jpg)|Added media query styling for 570px and up. Resized and compressed the image |Unresolved|
+|Thank you page, background image zoom out on large screen sizes|Background image  zooms out as the screen size increases, hence bottom of image not visible enough on large screen. ![680px](./assets/images/bugs-images/680px%20bug.jpg) ![image bottom not visible](./assets/images/bugs-images/not%20visible.jpg)|Added media query styling for 570px and up. Resized and compressed the image. Prospective solution: Change background to an image that has space at the bottom with none important imagery details|Unresolved.|
 
 ### Libraries
 * [Google Fonts](https://fonts.google.com/) fonts were used to import the “Montserrat and Lato” font into the style.css file which is used on all pages throughout the project.  
