@@ -369,6 +369,7 @@ label {
       background-position: top;
       position: relative;
    }
+
 }
 
  /* Footer */
@@ -487,6 +488,7 @@ label {
       background-color: azure;
       color: #606060;
     }
+   
 
  }
 
@@ -519,6 +521,9 @@ label {
     #services h3  {
       text-align: center;
     }
+    .wild {
+      padding-top: 15px;
+   }
      
     /* About us page */
     .purpose {
