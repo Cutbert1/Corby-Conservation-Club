@@ -208,6 +208,9 @@ label {
    margin: 0 10px;
 }
 
+.fa-water, .fa-tree, .fa-hippo, .fa-ship {
+   padding: 5px;
+}
 /* Events Section */
 #activities {
    background: url(../images/flowerr-image.jpg) no-repeat center/cover;

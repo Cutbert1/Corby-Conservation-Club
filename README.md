@@ -207,7 +207,7 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 |View Tested|   Outcome of the audit  |Soulution Applied|Screenshot of clear Validator output|
 |:------------|:----------------|:-------------|:------------|
 |Mobile|![lighthouse report mobile](./assets/images/Lighthouse-images/lighthouse%20report%20mobile.jpg)|Reseized background images for home page (hero-image, donation-page, and register page) to reduce size styled CSS to fit. Removed dormant CSS  declarations.|![lighthouse mobile clear report](./assets/images/Lighthouse-images/lighthouse%20report2%20mobile.jpg)|
-|Desktop|![lighhouse report desktop](./assets/images/Lighthouse-images/lighthouse%20report%20desktop.jpg)|Reseized background images for home page (hero-image, donation-page, and register page) to reduce size styled CSS to fit. Re moved dormant CSS  declarations.|![lighthouse desktop clear report](./assets/images/Lighthouse-images/lighthouse%20report2%20desktop.jpg)|
+|Desktop|![lighhouse report desktop](./assets/images/Lighthouse-images/lighthouse%20report%20desktop.jpg)|Reseized background images for home page (hero-image, donation-page, and register page) to reduce size styled CSS to fit. Removed dormant CSS  declarations.|![lighthouse desktop clear report](./assets/images/Lighthouse-images/lighthouse%20report2%20desktop.jpg)|
 
 ### Validation Testing
 |Page Tested|Screenshot of Errors and Warnings   |Solution Applied|Screenshot of clear Validation Output|
@@ -231,7 +231,7 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 |:------------:|:----------------:|:-------------:|
 |![chrome](./assets/images/readme-images/browser-compatibility-image/chrome.jpg)|Good|Good|
 |![Firefox](./assets/images/readme-images/browser-compatibility-image/firefox.jpg)|Good|Good|
-|![edge](./assets/images/readme-images/browser-compatibility-image/edge.jpg)|Godd|Good|
+|![edge](./assets/images/readme-images/browser-compatibility-image/edge.jpg)|Good|Good|
 
 ### Screen sizes Responsiveness  
 ![Web page in common screen sizes](./assets/images/common%20screen%20sizes.jpg)
