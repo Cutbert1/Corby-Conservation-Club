@@ -6,14 +6,14 @@ Project is to campaign, convey and provide insight on what Corby Conservation Un
 The project is aimed at communicating with local, national and international audience the importance of conservation of our environment for future generation. This entails green and animal conservation, to reduce natural disaster experienced round the globe. Thus encourage every individual to play their part in any way they can.
 The project provides several interactive features to enable users learn more about the organisation and easily navigate through the site to find desired content and support the organisation to continue conserving our ecosystem.
 #### User Demographic
-Initiative started from our local community Corby in Northamptonshire United  Kingdom, working with local communities, charities and community interest companies in and around Northamptonshire.  With a well thought after global initiative Corby Conservative Union is now engaging with other conservation entities around the globe. Other entities and individuals keen on  conservation of our planet natural resources and animals are encouraged to get involved through volunteering or material support for the organisations
+Initiative started from our local community Corby in Northamptonshire United  Kingdom, working with local communities, charities and community interest companies in and around Northamptonshire.  With a well thought after global initiative Corby Conservation Union is now engaging with other conservation entities around the globe. Other entities and individuals keen on  conservation of our planet natural resources and animals are encouraged to get involved through volunteering or material support for the organisations
 ## Design
 #### Colour Scheme
 The three main colours used are Granite Gray, Azure and Olive green. This is inline with the theme of this project "Go Green and animal conservation".
 #### Topograhy
-The Montserrat font is used  all through the website. Sans Serif is used as the backup font should for any reason the font isn't being imported into the site properly.
+The Montserrat font is used  all through the website. Sans Serif is used as the backup font for any reason the font isn't being imported into the site properly.
 #### Imagery
-The hero image is designed to aligned with the theme of the project showing outstanding green conservation surrounded by water and a house built with non-synthetic but  natural materials. Other images through the projects also focuses on green and animal  conservation.
+The hero image is designed to aligned with the theme of the project showing outstanding green conservation surrounded by water and a house built with non-synthetic and natural materials. Other images throughout the projects also focuses on green and animal  conservation.
 ## Features
 The  core features/functionality of  this project is categorised as below. Future improvements are also highlighted in this section.
 ### Existing Features
@@ -39,7 +39,7 @@ A responsive navigation header where all the links to other html pages are embed
 ```
 ![Image showing the output of the program](./assets/images/readme-images/navbar.jpg). ![Image showing the output of the program 768px and above](./assets/images/readme-images/navbar%20tablets.jpg)
 #### Footer and Social Network Icons
-A responsive footer is included for user interaction and where they can follow Corby Conservation Union social network. A home page for Facebook, Instagram, Twitter(X) and YouTube is embedded through the social media icons.
+A responsive footer is included for user interaction and where they can follow Corby Conservation Union social network. A home page for Facebook, Instagram, Twitter(X), YouTube and LinkedIn are embedded through the social media icons.
 ```html
 <footer>
     <h2 id="networks">Follow us</h2>
@@ -58,7 +58,7 @@ A responsive footer is included for user interaction and where they can follow C
 ```
 ![Image showing the output of the program](./assets/images/readme-images/footer-mobile-screen.jpg)
 #### Buttons and Links
-Responsive button and links were used. “Get Involved” button in registration page is linked to https://formdump.codeinstitute.net. “Donate” button on donate page is linked to thank-you.html. The icons buttons to social media are all linked to home page of respective social network.
+Responsive button and links were used. “Get Involved” button in registration page is linked to [Code institute form dump](https://formdump.codeinstitute.net). “Donate” button on donate page is linked to thank-you.html. The icons buttons to social media are all linked to home page of respective social network. Three radio buttons are included in register for conservation preference selection.
 ```html
 <div>
     <button type="submit" class="donate-button">Donate</button>
@@ -94,7 +94,7 @@ Image Gallery is a page dedicated to green and animal conservation images compil
 ```
 ![Image showing the output of the program](./assets/images/readme-images/gallery-page.jpg).
 #### Register Form
-Responsive registration form created to accept First name, Last Name, Email address and radio button to select label options. It is expected that any none text input on email address, first and last name will through up an error message. Users are also restricted to select only one label. 
+Responsive registration form created to accept First name, Last Name, Email address and radio button to select label options. It is expected that any none text input on email address, first and last name will throw up an error message. Users are also restricted to select only one label. 
 ```html
 <form id="registration-form" action="https://formdump.codeinstitute.net" method="POST">
     <h2>Register with us!<i class="fa-solid fa-handshake"></i></h2>
@@ -128,7 +128,7 @@ Responsive registration form created to accept First name, Last Name, Email addr
 ```
 ![Image showing the output of the program](./assets/images/readme-images/registration-form.jpg).
 #### Donate Form
-Responsive donate form designed to accept Name on Card, 16 digits card number , card expiry date, 3 digits CVC card number and amount. This section is design for alpha numeric input, however  specific conditions must be met before the form can submit. Name on Card must be alpha, card number must be numeric and can’t input more than 16 digits. Expiry date must be a future date, CVC must be numeric and can’t exceed 3 digits and amount must be numeric.
+Responsive donate form designed to accept Name on Card, 16 digits card number , card expiry date, 3 digits CVC card number Amount and Card Expiry date selection. This section is design for alpha numeric input, however  specific conditions must be met before the form can submit. Name on Card must be alpha, card number must be numeric and can’t input more than 16 digits. CVC must be numeric and can’t exceed 3 digits and amount must be numeric.
 ```html
 <div id="donate">
     <form id="donation-form" action="thank-you.html" method="GET">
@@ -171,16 +171,16 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 </div>
 ```
 ![Image showing the output of the program](./assets/images/readme-images/donate-page.jpg)
-#### Improvement Features
+#### Future features Improvement 
 * Donate button can be linked to banks via financial services network like visa, master card etc.
 * Videos, iframe or pictures functionalities that illustrates green and wildlife conservation  can be added to gallery.html file
 * News feed can be added to present news specifically targeted to green and wildlife conservation, including any announcement from Corby Conservation Union.
-*
+
 ## Manual Testing
 ### Features Testing
 |Key Features|   User Value   |Functionality Test|Outcome|
 |:------------|:----------------|:-------------|:------------|
-|Logo|Assist user navigate through the website as it renders the **Home page** when logo is clicked.![click logo](./assets/images/readme-images/manual-test-images/click-logo.jpg)|While on any other page (Register, Donate, About Us) click on **logo**.|While on donate page, logo was clicked and home page was rendered. Facilitates users experience  should they want to know more of our services before donating to Corby Conservation Union. ![logo before and after](./assets/images/readme-images/manual-test-images/logo%20before-after.jpg)|
+|Logo|Assist user navigate through the website as it renders the **Home page** when logo is clicked.![click logo](./assets/images/readme-images/manual-test-images/click-logo.jpg)|While on any other page (Register, Donate, About Us, Gallery) click on **logo**.|While on donate page, logo was clicked and home page was rendered. Facilitates users experience  should they want to know more of our services before donating to Corby Conservation Union. ![logo before and after](./assets/images/readme-images/manual-test-images/logo%20before-after.jpg)|
 |Navbar-Home Page|User meaningful value, render **Home pag** when navbar is clicked. ![navbar home page](./assets/images/readme-images/manual-test-images/navbar-homepage.jpg)|From any page on mobile screen click the nav toggle, select **Home** to render. On a tablet or higher directly select Home.|While on register page or any other page, click nav toggle burger sign, click home to render page. ![navbar home page before and after](./assets/images/readme-images/manual-test-images/navbar-hompage%20before-after.jpg)|
 |Navbar-Gallery  |User experience value, render **Gallery page** when navbar is clicked. ![navbar gallery](./assets/images/readme-images/manual-test-images/navbar-gallery.jpg)|From any page on mobile screen click the nav toggle, select **Gallery** to render. On a tablet or higher directly select Gallery|While on home  page or any other page, click nav toggle burger sign, click gallery  to render page. Enable user to quickly view gallery and review images based on our activities and events. ![navbar gallery before and after](./assets/images/readme-images/manual-test-images/navbar-gallery%20before-after.jpg)|
 |Navbar-Register |Renders **Register page** when navbar is clicked. ![navbar register](./assets/images/readme-images/manual-test-images/navbar-register.jpg) |From any page on mobile screen click the nav toggle, select **Register** to render. On a tablet or higher directly select Register.|While on gallery  page or any other page, click nav toggle burger sign, click Register  to render page. Users to seamlessly visit our Register page to join us. ![navbar register before and after](./assets/images/readme-images/manual-test-images/navbar-register-before-after.jpg)|
@@ -253,8 +253,8 @@ Responsive donate form designed to accept Name on Card, 16 digits card number , 
 |Home Page|Alternative text used throughout the page for images|No Contrast error. 1 empty label error. Unable to fix as nav-toggle label is a burger favicon. One alert for redundant link, this is for href= index-html. The error and alert is on the header hence runs throughout the other pages.![Home page accessibility](./assets/images/readme-images/code-validation-images/accessibility%20report-home.jpg) 
 |Gallery Page|Alternative text used throughout the page for images|No Contrast error. 1 empty label error- Unable to fix as nav-toggle label is a burger favicon. One alert for redundant link, this is for href= index-html. The error and alert is on the header hence runs throughout the other pages.![Gallery page accessibility report](./assets/images/readme-images/code-validation-images/accessibility%20report-gallery.jpg) 
 |Register Page|Alternative text used throughout the page for images|No Contrast error. 1 empty label error- Unable to fix as nav-toggle label is a burger favicon. 1 alert for redundant link, this is for href= index-html. The error and alert is on the header hence runs throughout the other pages. 8 contrast error due to label names and text input border azure color. This was updated to white and retested but no improvemnt on contrast error. ![register accessibility report](./assets/images/readme-images/code-validation-images/accessibility%20report-register.jpg)
-|About Us Page|Alternative text used throughout the page for images|1 Contrast error. 1 empty label error- Unable to fix as nav-toggle label is a burger favicon. 2 alerts for redundant link and a heading level skipped, this is for href= index-html. The error and alert ar on the header hence runs throughout the other pages. ![About us accessibility report](./assets/images/readme-images/code-validation-images/accessibility%20report-aboutus.jpg)Updated the "About Us" color from white to black to improve contrast. Updted "purpose" div from h3 to h2 and reduced the font-size. Corrected result: ![About us accessibility clear report](./assets/images/readme-images/code-validation-images/accessibility%20clear%20report-aboutus.jpg)| 
-|Donate Page|Alternative text used throughout the page for images |9 Contrast error. 1 empty label error- Unable to fix as nav-toggle label is a burger favicon. 1 alerts for redundant link, this is for href= index-html. The error and alert is on the header hence runs throughout the other pages. ![Donate page accessibility report](./assets/images/readme-images/code-validation-images/accessibility%20report-donate.jpg)Donate-button background color  updated from olive green to black and all input text color updated from azure to white to improve contrast.![donate clear accessibility report ](./assets/images/readme-images/code-validation-images/accessibility%20clear%20report-donate.jpg)|
+|About Us Page|Alternative text used throughout the page for images|1 Contrast error. 1 empty label error- Unable to fix as nav-toggle label is a burger favicon. 2 alerts for redundant link and a heading level skipped, this is for href= index-html. The error and alert ar on the header hence runs throughout the other pages. ![About us accessibility report](./assets/images/readme-images/code-validation-images/accessibility%20report-aboutus.jpg).  Updated the "About Us" color from white to black to improve contrast. Updted "purpose" div from h3 to h2 and reduced the font-size. Corrected result: ![About us accessibility clear report](./assets/images/readme-images/code-validation-images/accessibility%20clear%20report-aboutus.jpg)| 
+|Donate Page|Alternative text used throughout the page for images |9 Contrast error. 1 empty label error- Unable to fix as nav-toggle label is a burger favicon. 1 alerts for redundant link, this is for href= index-html. The error and alert is on the header hence runs throughout the pages. ![Donate page accessibility report](./assets/images/readme-images/code-validation-images/accessibility%20report-donate.jpg) Donate-button background color  updated from olive green to black and all input text color updated from azure to white to improve contrast.![donate clear accessibility report ](./assets/images/readme-images/code-validation-images/accessibility%20clear%20report-donate.jpg)|
 |Thank-You page|Alternative text used for image|1 Contrast error. 1 empty label error- Unable to fix as nav-toggle label is a burger favicon. 1 alert for redundant link, this is for href= index-html. The error and alert is on the header hence runs throughout the other pages. ![Thank you accessibility report](./assets/images/readme-images/code-validation-images/accessibility%20clear%20report-thankyou.jpg)|
 |
 ## Technologies Used
