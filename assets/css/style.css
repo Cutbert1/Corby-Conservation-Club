@@ -213,7 +213,7 @@ label {
 }
 /* Events Section */
 #activities {
-   background: url(../images/flowerr-image.jpg) no-repeat center/cover;
+   background: url(../images/flower-image.jpg) no-repeat center/cover;
    display: flex;
    flex-wrap: wrap;
 }
@@ -287,6 +287,12 @@ label {
    padding: 1px;
 }
 
+#pictures iframe {
+   width: 100%;
+   line-height: 16px;
+   padding: 1px;
+}
+
 /* Donate Page */
 
 #donate {
@@ -346,8 +352,7 @@ label {
    background-position: center;
    background-repeat:no-repeat;
    background-size: cover;
-   height: 100vh;
-   
+   height: 100vh; 
  }
 
  .thank-you h1 {
@@ -402,7 +407,6 @@ label {
     color: #606060;
  }
 
- 
  /* Media query: tablets and larger (768px and up) */
  @media screen and (min-width: 768px) {
     /* Header */
@@ -492,7 +496,6 @@ label {
       color: #606060;
     }
    
-
  }
 
  /* Media query: larger devices (laptop and desktops, 981px and up) */
